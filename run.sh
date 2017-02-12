@@ -25,6 +25,7 @@ mkdir "${root}/result_clang"
 scan-build-3.9 -v -o "${root}/result_clang" make
 
 # Run Frama-C
+rm "${root}/result_frama-c.txt"
 cd ${bench}/01.w_Defects
 frama-c -cpp-extra-args="-I../include -isystem $(frama-c -print-share-path)/libc -isystem /usr/include -include ${root}/gnuc_prereq.h -D__FC_DEFINE_PID_T" \
         -val $(ls *.c | grep -v "extern_1" | grep -v "invalid_memory_access.c" | grep -v "st_overflow.c" | grep -v "st_underrun.c" | xargs) \
