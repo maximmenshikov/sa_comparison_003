@@ -39,13 +39,6 @@ frama-c -cpp-extra-args="-I../include -isystem $(frama-c -print-share-path)/libc
         -val $(ls *.c | grep -v "extern_1" | grep -v "invalid_memory_access.c" | grep -v "st_overflow.c" | grep -v "st_underrun.c" | xargs) \
         >> ${root}/result_frama-c.txt
 
-# Run CLion
-rm -rf ${root}/result_clion
-if [[ -z ${CLION_DIR} ]] ; then
-CLION_DIR="/opt/clion-2016.3.2"
-fi
-${CLION_DIR}/bin/inspect.sh ${bench} Project_Default ${root}/result_clion -v2
-
 # Build PVS-Studio comment inserting utility
 cd ${root}
 git clone https://github.com/viva64/how-to-use-pvs-studio-free.git
