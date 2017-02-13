@@ -3,13 +3,15 @@
 # Toyota ITC benchmarks.
 # (C) Maxim Menshchikov 2017
 
-git clone https://github.com/mmenshchikov/itc-benchmarks.git
-
 root=$(pwd)
 bench=${root}/itc-benchmarks
-
-git clone https://github.com/mmenshchikov/sa_parsers.git
 parsers=${root}/sa_parsers
+
+if [[ "$1" != "--no-verify" ]] ; then
+
+git clone https://github.com/mmenshchikov/itc-benchmarks.git
+git clone https://github.com/mmenshchikov/sa_parsers.git
+
 xbuild ${parsers}/sa_parsers.sln
 
 # Run cppcheck
@@ -73,3 +75,13 @@ ${parsers}/clang_parser/bin/Debug/clang_parser.exe result_clang > parsed_clang.t
 ${parsers}/cppcheck_parser/bin/Debug/cppcheck_parser.exe result_cppcheck.txt > parsed_cppcheck.txt
 ${parsers}/pvs_parser/bin/Debug/pvs_parser.exe result_pvs/project.tasks > parsed_pvs.txt
 ${parsers}/resharper_parser/bin/Debug/resharper_parser.exe result_resharper.txt resharper_fixes.txt > parsed_resharper.txt
+
+fi
+
+cd ${root}
+mkdir -p "${root}/01.non-verified"
+
+${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_clang.txt ${bench} skipped.txt > 01.non-verified/clang.txt
+${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_cppcheck.txt ${bench} skipped.txt > 01.non-verified/cppcheck.txt
+${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_framac.txt ${bench} skipped.txt > 01.non-verified/framac.txt
+${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_pvs.txt ${bench} skipped.txt > 01.non-verified/pvs.txt
