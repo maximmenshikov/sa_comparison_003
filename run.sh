@@ -8,6 +8,10 @@ git clone https://github.com/mmenshchikov/itc-benchmarks.git
 root=$(pwd)
 bench=${root}/itc-benchmarks
 
+git clone https://github.com/mmenshchikov/sa_parsers.git
+parsers=${root}/sa_parsers
+xbuild ${parsers}/sa_parsers.sln
+
 # Run cppcheck
 rm "${root}/result_cppcheck.txt"
 cd ${bench}/01.w_Defects
