@@ -65,3 +65,10 @@ mkdir -p "${root}/result_pvs"
 pvs-studio-analyzer trace -o "${root}/result_pvs/strace_out" -- make
 pvs-studio-analyzer analyze -f "${root}/result_pvs/strace_out" -o "${root}/result_pvs/project.log"
 plog-converter -a GA:1,2 -t tasklist -o "${root}/result_pvs/project.tasks" "${root}/result_pvs/project.log"
+
+cd ${root}
+# Run parsers
+${parsers}/framac_parser/bin/Debug/framac_parser.exe result_frama-c.txt result_frama-c2.txt > parsed_framac.txt
+${parsers}/clang_parser/bin/Debug/clang_parser.exe result_clang > parsed_clang.txt
+${parsers}/cppcheck_parser/bin/Debug/cppcheck_parser.exe result_cppcheck.txt > parsed_cppcheck.txt
+${parsers}/pvs_parser/bin/Debug/pvs_parser.exe result_pvs/project.tasks > parsed_pvs.txt
