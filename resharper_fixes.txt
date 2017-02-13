@@ -1,0 +1,7 @@
+Assigned value is never used
+﻿is reassigned in all paths before being read
+﻿hides previous local declaration
+might not be initialized
+﻿Not all control paths return a value
+﻿Redundant argument in conditional expression
+Unreachable code

@@ -72,4 +72,4 @@ ${parsers}/framac_parser/bin/Debug/framac_parser.exe result_frama-c.txt result_f
 ${parsers}/clang_parser/bin/Debug/clang_parser.exe result_clang > parsed_clang.txt
 ${parsers}/cppcheck_parser/bin/Debug/cppcheck_parser.exe result_cppcheck.txt > parsed_cppcheck.txt
 ${parsers}/pvs_parser/bin/Debug/pvs_parser.exe result_pvs/project.tasks > parsed_pvs.txt
-${parsers}/resharper_parser/bin/Debug/resharper_parser.exe result_resharper.txt > parsed_resharper.txt
+${parsers}/resharper_parser/bin/Debug/resharper_parser.exe result_resharper.txt resharper_fixes.txt > parsed_resharper.txt
