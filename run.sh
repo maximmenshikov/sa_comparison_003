@@ -11,7 +11,9 @@ bench=${root}/itc-benchmarks
 # Run cppcheck
 rm "${root}/result_cppcheck.txt"
 cd ${bench}/01.w_Defects
+echo "######## 01.w_Defects" >> "${root}/result_cppcheck.txt"
 cppcheck . 2>> "${root}/result_cppcheck.txt"
+echo "######## 02.wo_Defects" >> "${root}/result_cppcheck.txt"
 cd ${bench}/02.wo_Defects
 cppcheck . 2>> "${root}/result_cppcheck.txt"
 
@@ -27,9 +29,11 @@ scan-build-3.9 -v -o "${root}/result_clang" make
 # Run Frama-C
 rm "${root}/result_frama-c.txt"
 cd ${bench}/01.w_Defects
+echo "######## 01.w_Defects" >> "${root}/result_frama-c.txt"
 frama-c -cpp-extra-args="-I../include -isystem $(frama-c -print-share-path)/libc -isystem /usr/include -include ${root}/gnuc_prereq.h -D__FC_DEFINE_PID_T" \
         -val $(ls *.c | grep -v "extern_1" | grep -v "invalid_memory_access.c" | grep -v "st_overflow.c" | grep -v "st_underrun.c" | xargs) \
         >> ${root}/result_frama-c.txt
+echo "######## 02.wo_Defects" >> "${root}/result_frama-c.txt"
 cd ${bench}/02.wo_Defects
 frama-c -cpp-extra-args="-I../include -isystem $(frama-c -print-share-path)/libc -isystem /usr/include -include ${root}/gnuc_prereq.h -D__FC_DEFINE_PID_T" \
         -val $(ls *.c | grep -v "extern_1" | grep -v "invalid_memory_access.c" | grep -v "st_overflow.c" | grep -v "st_underrun.c" | xargs) \
