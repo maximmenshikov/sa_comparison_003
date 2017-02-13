@@ -1,0 +1,917 @@
+Solution itc-benchmarks.sln
+    Project 01.w_Defects
+      ..\01.w_Defects\buffer_underrun_dynamic.c:247 Local variable 'index' is reassigned in all paths before being read
+      ..\01.w_Defects\buffer_underrun_dynamic.c:652 Function 'strncpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\buffer_underrun_dynamic.c:699 Local variable 'c' is only assigned but never accessed
+      ..\01.w_Defects\buffer_underrun_dynamic.c:700 Assigned value is never used
+      ..\01.w_Defects\data_lost.c:133 Assigned value is never used
+      ..\01.w_Defects\data_overflow.c:124 Assigned value is never used
+      ..\01.w_Defects\data_overflow.c:140 Assigned value is never used
+      ..\01.w_Defects\dead_code.c:22 Unreachable code
+      ..\01.w_Defects\dead_code.c:131 Unreachable code
+      ..\01.w_Defects\dead_code.c:149 Unreachable code
+      ..\01.w_Defects\double_free.c:218 Local variable 'a' is reassigned in all paths before being read
+      ..\01.w_Defects\endless_loop.c:26 Unreachable code
+      ..\01.w_Defects\endless_loop.c:59 Unreachable code
+      ..\01.w_Defects\endless_loop.c:169 Unreachable code
+      ..\01.w_Defects\free_nondynamic_allocated_memory.c:97 Local variable 'ptr1' is never used
+      ..\01.w_Defects\free_nondynamic_allocated_memory.c:98 Local variable 'ptr2' is never used
+      ..\01.w_Defects\free_nondynamic_allocated_memory.c:99 Local variable 'ptr3' is never used
+      ..\01.w_Defects\free_null_pointer.c:24 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:70 Local variable 'j' is reassigned in all paths before being read
+      ..\01.w_Defects\free_null_pointer.c:109 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\free_null_pointer.c:146 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\free_null_pointer.c:195 Unreachable code
+      ..\01.w_Defects\free_null_pointer.c:228 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\free_null_pointer.c:241 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\free_null_pointer.c:258 Unreachable code
+      ..\01.w_Defects\free_null_pointer.c:275 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\free_null_pointer.c:305 Unreachable code
+      ..\01.w_Defects\free_null_pointer.c:320 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\free_null_pointer.c:327 Unreachable code
+      ..\01.w_Defects\free_null_pointer.c:386 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:386 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:410 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:410 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:416 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\free_null_pointer.c:419 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:420 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:440 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\free_null_pointer.c:443 Redundant argument in conditional expression
+      ..\01.w_Defects\free_null_pointer.c:445 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:445 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:445 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:445 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:446 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:446 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:446 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:446 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:449 Redundant argument in conditional expression
+      ..\01.w_Defects\free_null_pointer.c:452 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:455 Redundant argument in conditional expression
+      ..\01.w_Defects\free_null_pointer.c:460 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:478 Declaration of 'fptr' hides previous local declaration
+      ..\01.w_Defects\free_null_pointer.c:489 Declaration of 'fptr' hides previous local declaration
+      ..\01.w_Defects\free_null_pointer.c:491 Assigned value is never used
+      ..\01.w_Defects\free_null_pointer.c:530 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:530 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:531 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:531 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:532 Redundant parentheses
+      ..\01.w_Defects\free_null_pointer.c:532 Redundant parentheses
+      ..\01.w_Defects\function_return_value_unchecked.c:30 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:49 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:71 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:108 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\function_return_value_unchecked.c:123 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:129 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:135 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:174 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:186 Local variable 'arr' is used only in unevaluated context
+      ..\01.w_Defects\function_return_value_unchecked.c:187 Expression of type 'float(*)[]' is implicitly converted to incompatible pointer type 'float(*)[4]'
+      ..\01.w_Defects\function_return_value_unchecked.c:246 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:264 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:286 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:291 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:296 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:301 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:318 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:324 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:384 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:393 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\function_return_value_unchecked.c:399 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:404 Assigned value is never used
+      ..\01.w_Defects\function_return_value_unchecked.c:440 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:33 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:34 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:40 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:42 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:52 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:52 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:71 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:71 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:76 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:81 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:92 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:94 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:106 Redundant 'else' keyword
+      ..\01.w_Defects\func_pointer.c:120 Local variable 'str' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:123 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:135 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:183 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:195 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:256 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:265 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:276 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:276 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:283 Local variable 'a' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:284 Expression of type 'char**(*)(char[])' is implicitly converted to incompatible pointer type 'char**(*)(char*)'
+      ..\01.w_Defects\func_pointer.c:285 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:307 Expression of type 'float**(*)(float[][3], int)' is implicitly converted to incompatible pointer type 'float**(*)(float(*)[3], int)'
+      ..\01.w_Defects\func_pointer.c:330 Local variable 'flag' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:342 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:342 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:348 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:353 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:355 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:364 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:365 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:372 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:375 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:386 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:388 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\01.w_Defects\func_pointer.c:400 Redundant 'else' keyword
+      ..\01.w_Defects\func_pointer.c:437 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\01.w_Defects\func_pointer.c:438 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:438 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:454 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\01.w_Defects\func_pointer.c:495 Local variable 'flag' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:498 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:531 Unreachable code
+      ..\01.w_Defects\func_pointer.c:537 Local variable 'f' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:538 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:545 Local variable 'flag' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:548 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:560 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:560 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:579 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:579 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:584 Local variable 'st' is only assigned but never accessed
+      ..\01.w_Defects\func_pointer.c:587 Redundant empty statement
+      ..\01.w_Defects\func_pointer.c:592 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:599 Assigned value is never used
+      ..\01.w_Defects\func_pointer.c:601 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:601 Redundant parentheses
+      ..\01.w_Defects\func_pointer.c:605 Declaration of 'st1' hides previous local declaration
+      ..\01.w_Defects\improper_termination_of_block.c:38 Possibly erroneous empty-statement
+      ..\01.w_Defects\improper_termination_of_block.c:52 Possibly erroneous empty-statement
+      ..\01.w_Defects\improper_termination_of_block.c:67 Possibly erroneous empty-statement
+      ..\01.w_Defects\insign_code.c:23 Assigned value is never used
+      ..\01.w_Defects\invalid_extern_1.c:11 Possibly unused #include directive
+      ..\01.w_Defects\invalid_memory_access.c:30 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\invalid_memory_access.c:35 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:37 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:41 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:45 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:45 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:64 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:65 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:69 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:72 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:85 Local variable 'a' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:102 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:110 Local variable 'c' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:147 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:147 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\invalid_memory_access.c:205 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:210 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:256 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\invalid_memory_access.c:400 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\invalid_memory_access.c:410 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:422 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:445 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:499 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\invalid_memory_access.c:501 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\01.w_Defects\invalid_memory_access.c:530 Local variable 'str' is only assigned but never accessed
+      ..\01.w_Defects\invalid_memory_access.c:531 Assigned value is never used
+      ..\01.w_Defects\invalid_memory_access.c:559 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:567 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:610 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\invalid_memory_access.c:621 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\littlemem_st.c:27 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\littlemem_st.c:36 Assigned value is never used
+      ..\01.w_Defects\littlemem_st.c:303 Parameter 'flag' is never used
+      ..\01.w_Defects\littlemem_st.c:335 Parameter 'flag' is never used
+      ..\01.w_Defects\memory_allocation_failure.c:94 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:227 Redundant 'else' keyword
+      ..\01.w_Defects\memory_allocation_failure.c:255 Unreachable code
+      ..\01.w_Defects\memory_allocation_failure.c:276 Parameter 'buf' is only assigned but never accessed
+      ..\01.w_Defects\memory_allocation_failure.c:281 Assigned value is never used
+      ..\01.w_Defects\memory_allocation_failure.c:281 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_allocation_failure.c:292 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:292 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:326 Parameter 'devno' is never used
+      ..\01.w_Defects\memory_allocation_failure.c:374 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:390 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:411 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:438 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:441 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:442 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:442 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:442 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:442 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:447 Assigned value is never used
+      ..\01.w_Defects\memory_allocation_failure.c:460 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:492 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:492 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:492 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:494 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_allocation_failure.c:494 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:497 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:499 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:503 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:504 Assigned value is never used
+      ..\01.w_Defects\memory_allocation_failure.c:509 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:510 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:511 Assigned value is never used
+      ..\01.w_Defects\memory_allocation_failure.c:513 Local variable 'a' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:531 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\01.w_Defects\memory_allocation_failure.c:534 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:534 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:572 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:572 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:572 Redundant parentheses
+      ..\01.w_Defects\memory_allocation_failure.c:576 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_allocation_failure.c:576 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:583 Local variable 'ptr1' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:583 Local variable 'ptr1' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:593 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:599 Local variable 'ptr1' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:605 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:606 Assigned value is never used
+      ..\01.w_Defects\memory_allocation_failure.c:611 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:612 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:615 Local variable 'ptr1' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:618 Local variable 'b' might not be initialized
+      ..\01.w_Defects\memory_allocation_failure.c:679 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_allocation_failure.c:692 Redundant empty statement
+      ..\01.w_Defects\memory_leak.c:71 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:94 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:95 Possibly erroneous empty-statement
+      ..\01.w_Defects\memory_leak.c:117 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\memory_leak.c:148 Local variable 'dptr' might not be initialized
+      ..\01.w_Defects\memory_leak.c:210 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:210 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_leak.c:226 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:226 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_leak.c:232 Assigned value is never used
+      ..\01.w_Defects\memory_leak.c:243 Local variable 'p1' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:243 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_leak.c:244 Local variable 'p2' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:263 Local variable 'buf' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:268 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:272 Declaration of 'buf' hides previous local declaration
+      ..\01.w_Defects\memory_leak.c:272 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\memory_leak.c:274 Assigned value is never used
+      ..\01.w_Defects\memory_leak.c:274 Local variable 'un' might not be initialized
+      ..\01.w_Defects\memory_leak.c:306 Local variable 'p' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:306 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_leak.c:346 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\memory_leak.c:370 Declaration of 'fptr' hides previous local declaration
+      ..\01.w_Defects\memory_leak.c:370 Local variable 'fptr' is reassigned in all paths before being read
+      ..\01.w_Defects\memory_leak.c:379 Local variable 'fptr1' is only assigned but never accessed
+      ..\01.w_Defects\memory_leak.c:380 Assigned value is never used
+      ..\01.w_Defects\memory_leak.c:400 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:422 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:465 Unreachable code
+      ..\01.w_Defects\memory_leak.c:515 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\memory_leak.c:521 Redundant empty statement
+      ..\01.w_Defects\not_return.c:16 Not all control paths return a value
+      ..\01.w_Defects\not_return.c:35 Not all control paths return a value
+      ..\01.w_Defects\not_return.c:61 Not all control paths return a value
+      ..\01.w_Defects\not_return.c:87 Not all control paths return a value
+      ..\01.w_Defects\not_return.c:96 Assigned value is never used
+      ..\01.w_Defects\overrun_st.c:42 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:43 Assigned value is never used
+      ..\01.w_Defects\overrun_st.c:124 Local variable 'pbuf' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:317 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:319 Assigned value is never used
+      ..\01.w_Defects\overrun_st.c:604 Local variable 'pbuf' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:715 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:737 Local variable 'pbuf' is only assigned but never accessed
+      ..\01.w_Defects\overrun_st.c:747 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\pow_related_errors.c:67 Local variable 'ans' might not be initialized
+      ..\01.w_Defects\pow_related_errors.c:89 Local variable 'ans' might not be initialized
+      ..\01.w_Defects\pow_related_errors.c:111 Local variable 'ans' might not be initialized
+      ..\01.w_Defects\ptr_subtraction.c:34 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\ptr_subtraction.c:35 Assigned value is never used
+      ..\01.w_Defects\sign_conv.c:122 Assigned value is never used
+      ..\01.w_Defects\sign_conv.c:138 Assigned value is never used
+      ..\01.w_Defects\stubs.c:5 Possibly unused #include directive
+      ..\01.w_Defects\st_underrun.c:23 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:61 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:80 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:115 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:136 Local variable 's2' is only assigned but never accessed
+      ..\01.w_Defects\st_underrun.c:137 Assigned value is never used
+      ..\01.w_Defects\st_underrun.c:167 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\st_underrun.c:169 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:192 Local variable 'c' is only assigned but never accessed
+      ..\01.w_Defects\st_underrun.c:195 Assigned value is never used
+      ..\01.w_Defects\st_underrun.c:204 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\st_underrun.c:226 Local variable 'c' is only assigned but never accessed
+      ..\01.w_Defects\st_underrun.c:229 Assigned value is never used
+      ..\01.w_Defects\underrun_st.c:20 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\underrun_st.c:21 Assigned value is never used
+      ..\01.w_Defects\underrun_st.c:30 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\underrun_st.c:40 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\underrun_st.c:53 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\underrun_st.c:55 Assigned value is never used
+      ..\01.w_Defects\underrun_st.c:89 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\uninit_memory_access.c:53 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\uninit_memory_access.c:53 Local variable 'str2' might not be initialized
+      ..\01.w_Defects\uninit_memory_access.c:54 Local variable 'str2' might not be initialized
+      ..\01.w_Defects\uninit_memory_access.c:65 Local variable 'ptr' is reassigned in all paths before being read
+      ..\01.w_Defects\uninit_memory_access.c:97 Assigned value is never used
+      ..\01.w_Defects\uninit_memory_access.c:126 Local variable 'str2' might not be initialized
+      ..\01.w_Defects\uninit_memory_access.c:166 Local variable 'temp' is only assigned but never accessed
+      ..\01.w_Defects\uninit_memory_access.c:168 Assigned value is never used
+      ..\01.w_Defects\uninit_memory_access.c:197 Local variable 's' is reassigned in all paths before being read
+      ..\01.w_Defects\uninit_memory_access.c:318 Local variable 'str' might not be initialized
+      ..\01.w_Defects\uninit_memory_access.c:413 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_memory_access.c:418 Assigned value is never used
+      ..\01.w_Defects\uninit_memory_access.c:420 Assigned value is never used
+      ..\01.w_Defects\uninit_memory_access.c:433 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\01.w_Defects\uninit_memory_access.c:450 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:26 Local variable 'a' is never used
+      ..\01.w_Defects\uninit_pointer.c:28 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:29 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:29 Local variable 'p' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:38 Local variable 'a' is never used
+      ..\01.w_Defects\uninit_pointer.c:40 Local variable 'p' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:51 Local variable 'a' is never used
+      ..\01.w_Defects\uninit_pointer.c:52 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:54 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:61 Parameter 'p' is never used
+      ..\01.w_Defects\uninit_pointer.c:63 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:64 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:68 Local variable 'a' is never used
+      ..\01.w_Defects\uninit_pointer.c:70 Local variable 'p' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:80 Local variable 'buf2' is never used
+      ..\01.w_Defects\uninit_pointer.c:88 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:89 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:108 Local variable 'a' is never used
+      ..\01.w_Defects\uninit_pointer.c:119 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:121 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:122 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:123 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:151 Local variable 'ret' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:186 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:186 Local variable 'buf' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:198 Local variable 'buf' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:199 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:214 Some control paths may leak this resource acquisition
+      ..\01.w_Defects\uninit_pointer.c:292 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:340 Local variable 'r' is only assigned but never accessed
+      ..\01.w_Defects\uninit_pointer.c:344 Assigned value is never used
+      ..\01.w_Defects\uninit_pointer.c:367 Local variable 'ptr' might not be initialized
+      ..\01.w_Defects\uninit_pointer.c:376 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\uninit_pointer.c:394 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\uninit_pointer.c:415 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\uninit_var.c:21 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:22 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:22 Local variable 'a' might not be initialized
+      ..\01.w_Defects\uninit_var.c:32 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:33 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:43 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:44 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:55 Local variable 'dvar1' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:55 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:57 Unreachable code
+      ..\01.w_Defects\uninit_var.c:58 Redundant 'else' keyword
+      ..\01.w_Defects\uninit_var.c:59 Unreachable code
+      ..\01.w_Defects\uninit_var.c:60 Redundant 'else' keyword
+      ..\01.w_Defects\uninit_var.c:62 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:62 Local variable 'dvar' might not be initialized
+      ..\01.w_Defects\uninit_var.c:73 Unreachable code
+      ..\01.w_Defects\uninit_var.c:74 Local variable 'ret' might not be initialized
+      ..\01.w_Defects\uninit_var.c:79 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:80 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:91 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:91 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:91 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:91 Local variable 'a' might not be initialized
+      ..\01.w_Defects\uninit_var.c:91 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:107 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:110 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:130 Local variable 'data' might not be initialized
+      ..\01.w_Defects\uninit_var.c:141 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\uninit_var.c:184 Local variable 'p' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:186 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:186 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:186 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:186 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:186 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:201 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:201 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:222 Local variable 'r' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:228 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:243 Local variable 'val' might not be initialized
+      ..\01.w_Defects\uninit_var.c:248 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:249 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:265 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:265 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:266 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:266 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:267 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:267 Redundant parentheses
+      ..\01.w_Defects\uninit_var.c:273 Local variable 'r' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:276 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:294 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\uninit_var.c:296 Assigned value is never used
+      ..\01.w_Defects\uninit_var.c:297 Redundant empty declaration
+      ..\01.w_Defects\unused_var.c:21 Local variable 'unuse' is only assigned but never accessed
+      ..\01.w_Defects\unused_var.c:23 Assigned value is never used
+      ..\01.w_Defects\unused_var.c:41 Assigned value is never used
+      ..\01.w_Defects\unused_var.c:77 Assigned value is never used
+      ..\01.w_Defects\unused_var.c:114 Local variable 'unuse' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:40 Parameter 'a' is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:43 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:43 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:50 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:52 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:61 Parameter 'a' is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:64 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:64 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:71 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:73 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:84 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:84 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:91 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:93 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:104 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:104 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:110 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:113 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:126 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:126 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:130 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:130 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:138 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:140 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:158 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:160 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:173 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:173 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:173 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:173 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:179 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:181 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:198 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:200 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:212 Function 'strcat' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:213 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:214 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:214 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:221 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:224 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:241 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:241 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:250 Local variable 'st' might not be initialized
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:270 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:270 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:276 Local variable 'temp' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:277 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:281 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:323 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:323 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:330 Local variable 'i' is reassigned in all paths before being read
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:331 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:331 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:336 Local variable 'temp' might not be initialized
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:381 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:383 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:395 Local variable 'ret' is reassigned in all paths before being read
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:420 Local variable 'a' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:422 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:438 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:477 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:480 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:480 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:487 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:490 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:498 Parameter 'flag' is always rewritten in function body before being read
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:501 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:521 Unreachable code
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:527 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:528 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:535 Local variable 'flag' is only assigned but never accessed
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:538 Assigned value is never used
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:551 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:551 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:592 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:592 Redundant parentheses
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:597 Declaration of 'st' hides previous local declaration
+      ..\01.w_Defects\wrong_arguments_func_pointer.c:597 Declaration of 'st1' hides previous local declaration
+      ..\01.w_Defects\zero_division.c:20 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:21 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:31 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:33 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:44 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:45 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:75 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:76 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:89 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:91 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:114 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:116 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:126 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:127 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:138 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:139 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:150 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:152 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:163 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:164 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:175 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:176 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:192 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:193 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:203 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:204 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:221 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:223 Assigned value is never used
+      ..\01.w_Defects\zero_division.c:245 Local variable 'ret' is only assigned but never accessed
+      ..\01.w_Defects\zero_division.c:250 Assigned value is never used
+      ..\include\HeaderFile.h:9 Possibly unused #include directive
+      ..\include\HeaderFile.h:10 Possibly unused #include directive
+      ..\include\HeaderFile.h:11 Possibly unused #include directive
+      ..\include\HeaderFile.h:12 Possibly unused #include directive
+      ..\include\HeaderFile.h:13 Possibly unused #include directive
+      ..\include\HeaderFile.h:14 Possibly unused #include directive
+      ..\include\HeaderFile.h:18 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:9 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:10 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:11 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:12 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:13 Possibly unused #include directive
+    
+    Project 02.wo_Defects
+      ..\02.wo_Defects\buffer_underrun_dynamic.c:653 Function 'strncpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\buffer_underrun_dynamic.c:700 Local variable 'c' is only assigned but never accessed
+      ..\02.wo_Defects\buffer_underrun_dynamic.c:701 Assigned value is never used
+      ..\02.wo_Defects\data_lost.c:136 Assigned value is never used
+      ..\02.wo_Defects\data_overflow.c:125 Assigned value is never used
+      ..\02.wo_Defects\data_overflow.c:141 Assigned value is never used
+      ..\02.wo_Defects\dead_code.c:129 Unreachable code
+      ..\02.wo_Defects\double_free.c:101 Unreachable code
+      ..\02.wo_Defects\double_free.c:204 Local variable 'a' is reassigned in all paths before being read
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:22 Unreachable code
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:32 Redundant empty statement
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:61 Unreachable code
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:81 Redundant parentheses
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:81 Redundant parentheses
+      ..\02.wo_Defects\free_nondynamically_allocated_memory.c:114 Unreachable code
+      ..\02.wo_Defects\free_null_pointer.c:25 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:27 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:57 Local variable 'buf' is reassigned in all paths before being read
+      ..\02.wo_Defects\free_null_pointer.c:67 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:79 Local variable 'j' is reassigned in all paths before being read
+      ..\02.wo_Defects\free_null_pointer.c:118 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:155 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:204 Unreachable code
+      ..\02.wo_Defects\free_null_pointer.c:235 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\free_null_pointer.c:248 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:283 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:324 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\free_null_pointer.c:363 Local variable 'flag' is reassigned in all paths before being read
+      ..\02.wo_Defects\free_null_pointer.c:386 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:386 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:414 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:414 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:424 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:445 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\free_null_pointer.c:448 Redundant argument in conditional expression
+      ..\02.wo_Defects\free_null_pointer.c:450 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:450 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:450 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:450 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:451 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:451 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:451 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:451 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:454 Redundant argument in conditional expression
+      ..\02.wo_Defects\free_null_pointer.c:457 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:460 Redundant argument in conditional expression
+      ..\02.wo_Defects\free_null_pointer.c:465 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:483 Declaration of 'fptr' hides previous local declaration
+      ..\02.wo_Defects\free_null_pointer.c:494 Declaration of 'fptr' hides previous local declaration
+      ..\02.wo_Defects\free_null_pointer.c:496 Assigned value is never used
+      ..\02.wo_Defects\free_null_pointer.c:535 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:535 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:536 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:536 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:537 Redundant parentheses
+      ..\02.wo_Defects\free_null_pointer.c:537 Redundant parentheses
+      ..\02.wo_Defects\function_return_value_unchecked.c:30 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:50 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:69 Local variable 'a' is reassigned in all paths before being read
+      ..\02.wo_Defects\function_return_value_unchecked.c:72 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:109 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\function_return_value_unchecked.c:124 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:130 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:136 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:174 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:186 Local variable 'arr' is used only in unevaluated context
+      ..\02.wo_Defects\function_return_value_unchecked.c:187 Expression of type 'float(*)[]' is implicitly converted to incompatible pointer type 'float(*)[4]'
+      ..\02.wo_Defects\function_return_value_unchecked.c:246 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:264 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:286 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:291 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:296 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:301 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:318 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:324 Assigned value is never used
+      ..\02.wo_Defects\function_return_value_unchecked.c:451 Assigned value is never used
+      ..\02.wo_Defects\func_pointer.c:56 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:56 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:76 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:76 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:98 Local variable 'i' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:100 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:115 Redundant 'else' keyword
+      ..\02.wo_Defects\func_pointer.c:175 Local variable 'doubleptr' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:192 Assigned value is never used
+      ..\02.wo_Defects\func_pointer.c:287 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:287 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:340 Local variable 'flag' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:353 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:353 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:369 Assigned value is never used
+      ..\02.wo_Defects\func_pointer.c:401 Local variable 'i' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:403 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\02.wo_Defects\func_pointer.c:419 Redundant 'else' keyword
+      ..\02.wo_Defects\func_pointer.c:460 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\02.wo_Defects\func_pointer.c:463 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:463 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:512 Assigned value is never used
+      ..\02.wo_Defects\func_pointer.c:558 Unreachable code
+      ..\02.wo_Defects\func_pointer.c:564 Assigned value is never used
+      ..\02.wo_Defects\func_pointer.c:587 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:587 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:626 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:626 Redundant parentheses
+      ..\02.wo_Defects\func_pointer.c:631 Declaration of 'st1' hides previous local declaration
+      ..\02.wo_Defects\invalid_extern_1.c:11 Possibly unused #include directive
+      ..\02.wo_Defects\invalid_memory_access.c:46 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:66 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:67 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:71 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:72 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:78 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:80 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\invalid_memory_access.c:81 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:86 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:104 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\invalid_memory_access.c:107 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:123 Local variable 'buf' is reassigned in all paths before being read
+      ..\02.wo_Defects\invalid_memory_access.c:132 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:157 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:212 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\invalid_memory_access.c:217 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:233 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:265 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\invalid_memory_access.c:453 Assigned value is never used
+      ..\02.wo_Defects\invalid_memory_access.c:506 Local variable 'i' is reassigned in all paths before being read
+      ..\02.wo_Defects\invalid_memory_access.c:508 Local variable 'str_rev' is reassigned in all paths before being read
+      ..\02.wo_Defects\invalid_memory_access.c:568 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\invalid_memory_access.c:577 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\invalid_memory_access.c:623 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\invalid_memory_access.c:635 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\littlemem_st.c:27 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\littlemem_st.c:36 Assigned value is never used
+      ..\02.wo_Defects\littlemem_st.c:303 Parameter 'flag' is never used
+      ..\02.wo_Defects\littlemem_st.c:335 Parameter 'flag' is never used
+      ..\02.wo_Defects\memory_allocation_failure.c:96 Local variable 'ret' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:235 Redundant 'else' keyword
+      ..\02.wo_Defects\memory_allocation_failure.c:264 Unreachable code
+      ..\02.wo_Defects\memory_allocation_failure.c:286 Parameter 'buf' is only assigned but never accessed
+      ..\02.wo_Defects\memory_allocation_failure.c:291 Assigned value is never used
+      ..\02.wo_Defects\memory_allocation_failure.c:291 Some control paths may leak this resource acquisition
+      ..\02.wo_Defects\memory_allocation_failure.c:302 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:302 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:336 Parameter 'devno' is never used
+      ..\02.wo_Defects\memory_allocation_failure.c:383 Local variable 'ret' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:399 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:420 Local variable 'ret' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:447 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:450 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:451 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:451 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:451 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:451 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:456 Assigned value is never used
+      ..\02.wo_Defects\memory_allocation_failure.c:469 Local variable 'ret' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:548 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\02.wo_Defects\memory_allocation_failure.c:551 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:551 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:589 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:589 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:589 Redundant parentheses
+      ..\02.wo_Defects\memory_allocation_failure.c:593 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_allocation_failure.c:593 Local variable 'dptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:600 Local variable 'ptr1' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:600 Local variable 'ptr1' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:610 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:616 Local variable 'ptr1' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:622 Local variable 'ptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:623 Assigned value is never used
+      ..\02.wo_Defects\memory_allocation_failure.c:628 Local variable 'dptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:629 Local variable 'dptr' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:632 Local variable 'ptr1' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:635 Local variable 'b' might not be initialized
+      ..\02.wo_Defects\memory_allocation_failure.c:696 Local variable 'ret' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_allocation_failure.c:709 Redundant empty statement
+      ..\02.wo_Defects\memory_leak.c:73 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_leak.c:97 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_leak.c:212 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:218 Assigned value is never used
+      ..\02.wo_Defects\memory_leak.c:229 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:235 Assigned value is never used
+      ..\02.wo_Defects\memory_leak.c:246 Local variable 'p1' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:247 Local variable 'p2' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:269 Local variable 'buf' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:274 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_leak.c:276 Declaration of 'buf' hides previous local declaration
+      ..\02.wo_Defects\memory_leak.c:279 Assigned value is never used
+      ..\02.wo_Defects\memory_leak.c:311 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:352 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:375 Declaration of 'fptr' hides previous local declaration
+      ..\02.wo_Defects\memory_leak.c:375 Local variable 'fptr' is reassigned in all paths before being read
+      ..\02.wo_Defects\memory_leak.c:384 Declaration of 'fptr' hides previous local declaration
+      ..\02.wo_Defects\memory_leak.c:405 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_leak.c:428 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\memory_leak.c:472 Unreachable code
+      ..\02.wo_Defects\memory_leak.c:523 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\overrun_st.c:124 Local variable 'pbuf' is only assigned but never accessed
+      ..\02.wo_Defects\overrun_st.c:596 Local variable 'pbuf' is only assigned but never accessed
+      ..\02.wo_Defects\overrun_st.c:726 Local variable 'pbuf' is only assigned but never accessed
+      ..\02.wo_Defects\pow_related_errors.c:65 Local variable 'ans' might not be initialized
+      ..\02.wo_Defects\pow_related_errors.c:87 Local variable 'ans' might not be initialized
+      ..\02.wo_Defects\pow_related_errors.c:108 Local variable 'ans' might not be initialized
+      ..\02.wo_Defects\sign_conv.c:122 Assigned value is never used
+      ..\02.wo_Defects\sign_conv.c:138 Assigned value is never used
+      ..\02.wo_Defects\uninit_memory_access.c:54 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\uninit_memory_access.c:66 Local variable 'ptr' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_memory_access.c:99 Assigned value is never used
+      ..\02.wo_Defects\uninit_memory_access.c:205 Local variable 's' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_memory_access.c:286 Parameter 'devno' is never used
+      ..\02.wo_Defects\uninit_memory_access.c:385 Assigned value is never used
+      ..\02.wo_Defects\uninit_memory_access.c:400 Local variable 'flag' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_memory_access.c:437 Assigned value is never used
+      ..\02.wo_Defects\uninit_memory_access.c:454 Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+      ..\02.wo_Defects\uninit_memory_access.c:471 Assigned value is never used
+      ..\02.wo_Defects\uninit_pointer.c:50 Local variable 'pp' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_pointer.c:51 Local variable 'p' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_pointer.c:126 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:127 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:128 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:129 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:130 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:196 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:196 Local variable 'buf' might not be initialized
+      ..\02.wo_Defects\uninit_pointer.c:208 Local variable 'buf' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_pointer.c:225 Local variable 'ptr' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_pointer.c:226 Some control paths may leak this resource acquisition
+      ..\02.wo_Defects\uninit_pointer.c:255 Local variable 'fptr' is reassigned in all paths before being read
+      ..\02.wo_Defects\uninit_pointer.c:304 Assigned value is never used
+      ..\02.wo_Defects\uninit_pointer.c:409 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\uninit_pointer.c:432 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\uninit_var.c:62 Local variable 'dvar1' is only assigned but never accessed
+      ..\02.wo_Defects\uninit_var.c:65 Unreachable code
+      ..\02.wo_Defects\uninit_var.c:97 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\uninit_var.c:99 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:99 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:99 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:99 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:151 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\uninit_var.c:200 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:200 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:200 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:200 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:216 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:216 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:284 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:284 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:285 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:285 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:286 Redundant parentheses
+      ..\02.wo_Defects\uninit_var.c:286 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:40 Parameter 'a' is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:43 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:43 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:50 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:52 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:61 Parameter 'a' is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:64 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:64 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:71 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:73 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:84 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:84 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:91 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:93 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:104 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:104 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:111 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:113 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:125 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:125 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:129 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:129 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:136 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:138 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:155 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:157 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:169 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:169 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:169 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:169 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:175 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:177 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:194 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:196 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:207 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:208 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:209 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:209 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:214 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:216 Function 'strdup' is deprecated, reason: 'The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:220 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:223 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:242 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:242 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:272 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:272 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:278 Local variable 'temp' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:283 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:321 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:321 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:329 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:329 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:380 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:417 Local variable 'a' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:419 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:434 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:473 Function 'strcpy' is deprecated, reason: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.'
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:476 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:476 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:483 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:486 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:494 Parameter 'flag' is always rewritten in function body before being read
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:497 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:518 Unreachable code
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:524 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:525 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:532 Local variable 'flag' is only assigned but never accessed
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:535 Assigned value is never used
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:547 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:547 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:587 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:587 Redundant parentheses
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:592 Declaration of 'st' hides previous local declaration
+      ..\02.wo_Defects\wrong_arguments_func_pointer.c:592 Declaration of 'st1' hides previous local declaration
+      ..\02.wo_Defects\zero_division.c:20 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:21 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:31 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:33 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:43 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:44 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:73 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:74 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:87 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:89 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:112 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:114 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:124 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:125 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:136 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:137 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:148 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:152 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:164 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:165 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:176 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:177 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:193 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:194 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:204 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:205 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:222 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:224 Assigned value is never used
+      ..\02.wo_Defects\zero_division.c:246 Local variable 'ret' is only assigned but never accessed
+      ..\02.wo_Defects\zero_division.c:251 Assigned value is never used
+      ..\include\HeaderFile.h:9 Possibly unused #include directive
+      ..\include\HeaderFile.h:10 Possibly unused #include directive
+      ..\include\HeaderFile.h:11 Possibly unused #include directive
+      ..\include\HeaderFile.h:12 Possibly unused #include directive
+      ..\include\HeaderFile.h:13 Possibly unused #include directive
+      ..\include\HeaderFile.h:14 Possibly unused #include directive
+      ..\include\HeaderFile.h:18 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:9 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:10 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:11 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:12 Possibly unused #include directive
+      ..\include\HeaderFile.hpp:13 Possibly unused #include directive
+    
+  
