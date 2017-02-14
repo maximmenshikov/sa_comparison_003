@@ -1,0 +1,928 @@
+01.w_Defects/buffer_underrun_dynamic.c:647
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (73 calls) provided
+Where? File buffer_underrun_dynamic.c, line 647
+Why? The left operand of '==' is a garbage value
+How to fix? -
+
+01.w_Defects/zero_division.c:250
+clang (correct):
+What? Division by zero
+When? Path (36 calls) provided
+Where? File zero_division.c, line 250
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:103
+clang (correct):
+What? Bad free
+When? Path (14 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 103
+Why? Argument to free() is the address of the local variable 'd', which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:367
+clang (correct):
+What? Uninitialized argument value
+When? Path (33 calls) provided
+Where? File uninit_pointer.c, line 367
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:22
+clang (correct):
+What? Bad free
+When? Path (4 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 22
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/double_free.c:131
+clang (correct):
+What? Double free
+When? Path (19 calls) provided
+Where? File double_free.c, line 131
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:45
+clang (correct):
+What? Dereference of null pointer
+When? Path (8 calls) provided
+Where? File null_pointer.c, line 45
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:229
+clang (correct):
+What? Bad free
+When? Path (30 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 229
+Why? Argument to free() is the address of the local variable 'free_nondynamic_allocated_memory_st', which is not memory allocated by malloc()
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:75
+clang (false):
+What? Dereference of null pointer
+When? Path (12 calls) provided
+Where? File uninit_memory_access.c, line 75
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:170
+clang (correct):
+What? Bad free
+When? Path (25 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 170
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/uninit_var.c:22
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (4 calls) provided
+Where? File uninit_var.c, line 22
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:91
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (16 calls) provided
+Where? File uninit_var.c, line 91
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:29
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (4 calls) provided
+Where? File uninit_pointer.c, line 29
+Why? Dereference of undefined pointer value
+How to fix? -
+
+01.w_Defects/zero_division.c:193
+clang (correct):
+What? Division by zero
+When? Path (31 calls) provided
+Where? File zero_division.c, line 193
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:296
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (32 calls) provided
+Where? File uninit_var.c, line 296
+Why? Assigned value is garbage or undefined
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:40
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (7 calls) provided
+Where? File uninit_pointer.c, line 40
+Why? Dereference of undefined pointer value
+How to fix? -
+
+01.w_Defects/bit_shift.c:105
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (18 calls) provided
+Where? File bit_shift.c, line 105
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/double_free.c:204
+clang (correct):
+What? Double free
+When? Path (30 calls) provided
+Where? File double_free.c, line 204
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:38
+clang (correct):
+What? Uninitialized argument value
+When? Path (8 calls) provided
+Where? File uninit_memory_access.c, line 38
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:209
+clang (correct):
+What? Bad free
+When? Path (28 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 209
+Why? Argument to free() is the address of the local variable 'str', which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/zero_division.c:223
+clang (correct):
+What? Division by zero
+When? Path (34 calls) provided
+Where? File zero_division.c, line 223
+Why? Division by zero
+How to fix? -
+
+01.w_Defects/null_pointer.c:140
+clang (correct):
+What? Dereference of null pointer
+When? Path (22 calls) provided
+Where? File null_pointer.c, line 140
+Why? Dereference of null pointer (loaded from variable 'p')
+How to fix? -
+
+01.w_Defects/bit_shift.c:174
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (29 calls) provided
+Where? File bit_shift.c, line 174
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/null_pointer.c:335
+clang (correct):
+What? Dereference of null pointer
+When? Path (41 calls) provided
+Where? File null_pointer.c, line 335
+Why? Array access (from variable 'null_pointer_017dst') results in a null pointer dereference
+How to fix? -
+
+01.w_Defects/uninit_var.c:74
+clang (correct):
+What? Garbage return value
+When? Path (15 calls) provided
+Where? File uninit_var.c, line 74
+Why? Undefined or garbage value returned to caller
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:160
+clang (correct):
+What? Function call with too few arguments
+When? Path (14 calls) provided
+Where? File wrong_arguments_func_pointer.c, line 160
+Why? Function taking 2 arguments is called with less (1)
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:262
+clang (correct):
+What? Bad free
+When? Path (36 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 262
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+02.wo_Defects/ow_memcpy.c:41
+clang (false):
+What? Assigned value is garbage or undefined
+When? Path (9 calls) provided
+Where? File ow_memcpy.c, line 41
+Why? Assigned value is garbage or undefined
+How to fix? -
+
+01.w_Defects/double_free.c:149
+clang (correct):
+What? Double free
+When? Path (22 calls) provided
+Where? File double_free.c, line 149
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/uninit_var.c:110
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (16 calls) provided
+Where? File uninit_var.c, line 110
+Why? Assigned value is garbage or undefined
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:86
+clang (correct):
+What? Bad free
+When? Path (17 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 86
+Why? Argument to free() is the address of the local variable 'pbuf', which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/double_free.c:115
+clang (correct):
+What? Double free
+When? Path (17 calls) provided
+Where? File double_free.c, line 115
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:155
+clang (correct):
+What? Bad free
+When? Path (23 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 155
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/func_pointer.c:375
+clang (correct):
+What? Function call with too few arguments
+When? Path (22 calls) provided
+Where? File func_pointer.c, line 375
+Why? Function taking 1 argument is called with less (0)
+How to fix? -
+
+01.w_Defects/bit_shift.c:192
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (30 calls) provided
+Where? File bit_shift.c, line 192
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:89
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (13 calls) provided
+Where? File uninit_pointer.c, line 89
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:164
+clang (correct):
+What? Division by zero
+When? Path (24 calls) provided
+Where? File zero_division.c, line 164
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:61
+clang (correct):
+What? Dereference of null pointer
+When? Path (11 calls) provided
+Where? File null_pointer.c, line 61
+Why? Access to field 'a' results in a dereference of a null pointer (loaded from variable 'p')
+How to fix? -
+
+01.w_Defects/uninit_var.c:243
+clang (correct):
+What? Garbage return value
+When? Path (30 calls) provided
+Where? File uninit_var.c, line 243
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:115
+clang (correct):
+What? Dereference of null pointer
+When? Path (17 calls) provided
+Where? File null_pointer.c, line 115
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:80
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (14 calls) provided
+Where? File bit_shift.c, line 80
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:128
+clang (correct):
+What? Bad free
+When? Path (19 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 128
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:177
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (21 calls) provided
+Where? File buffer_underrun_dynamic.c, line 177
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:239
+clang (correct):
+What? Bad free
+When? Path (33 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 239
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:36
+clang (correct):
+What? Bad free
+When? Path (7 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 36
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/underrun_st.c:55
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (10 calls) provided
+Where? File underrun_st.c, line 55
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:73
+clang (correct):
+What? Dereference of null pointer
+When? Path (12 calls) provided
+Where? File uninit_memory_access.c, line 73
+Why? -
+How to fix? -
+
+02.wo_Defects/null_pointer.c:257
+clang (false):
+What? Argument with 'nonnull' attribute passed null
+When? Path (36 calls) provided
+Where? File null_pointer.c, line 257
+Why? Null pointer passed as an argument to a 'nonnull' parameter
+How to fix? -
+
+01.w_Defects/zero_division.c:139
+clang (correct):
+What? Division by zero
+When? Path (21 calls) provided
+Where? File zero_division.c, line 139
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:115
+clang (correct):
+What? Bad free
+When? Path (17 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 115
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/uninit_var.c:130
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (20 calls) provided
+Where? File uninit_var.c, line 130
+Why? The left expression of the compound assignment is an uninitialized value. The computed value will also be garbage
+How to fix? -
+
+01.w_Defects/overrun_st.c:43
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (8 calls) provided
+Where? File overrun_st.c, line 43
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:130
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (22 calls) provided
+Where? File uninit_pointer.c, line 130
+Why? The left operand of '+' is a garbage value
+How to fix? -
+
+01.w_Defects/zero_division.c:116
+clang (correct):
+What? Division by zero
+When? Path (19 calls) provided
+Where? File zero_division.c, line 116
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:422
+clang (correct):
+What? Function call with too few arguments
+When? Path (31 calls) provided
+Where? File wrong_arguments_func_pointer.c, line 422
+Why? Function taking 2 arguments is called with less (1)
+How to fix? -
+
+01.w_Defects/bit_shift.c:92
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (16 calls) provided
+Where? File bit_shift.c, line 92
+Why? The result of the '>>' expression is undefined
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:151
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (20 calls) provided
+Where? File uninit_pointer.c, line 151
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:32
+clang (correct):
+What? Dereference of null pointer
+When? Path (7 calls) provided
+Where? File null_pointer.c, line 32
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:236
+clang (correct):
+What? Argument with 'nonnull' attribute passed null
+When? Path (36 calls) provided
+Where? File null_pointer.c, line 236
+Why? Null pointer passed as an argument to a 'nonnull' parameter
+How to fix? -
+
+01.w_Defects/double_free.c:168
+clang (correct):
+What? Double free
+When? Path (24 calls) provided
+Where? File double_free.c, line 168
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/bit_shift.c:44
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (8 calls) provided
+Where? File bit_shift.c, line 44
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/null_pointer.c:287
+clang (correct):
+What? Dereference of null pointer
+When? Path (41 calls) provided
+Where? File null_pointer.c, line 287
+Why? Array access (from variable 'null_pointer_016_gbl_doubleptr') results in a null pointer dereference
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:141
+clang (correct):
+What? Bad free
+When? Path (21 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 141
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/null_pointer.c:178
+clang (correct):
+What? Dereference of null pointer
+When? Path (27 calls) provided
+Where? File null_pointer.c, line 178
+Why? Array access (from variable 'p') results in a null pointer dereference
+How to fix? -
+
+01.w_Defects/bit_shift.c:235
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (36 calls) provided
+Where? File bit_shift.c, line 235
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:199
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (23 calls) provided
+Where? File uninit_pointer.c, line 199
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:21
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (3 calls) provided
+Where? File underrun_st.c, line 21
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:21
+clang (correct):
+What? Dereference of null pointer
+When? Path (4 calls) provided
+Where? File null_pointer.c, line 21
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:157
+clang (correct):
+What? Dereference of null pointer
+When? Path (24 calls) provided
+Where? File null_pointer.c, line 157
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:160
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (25 calls) provided
+Where? File uninit_var.c, line 160
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:26
+clang (correct):
+What? Uninitialized argument value
+When? Path (3 calls) provided
+Where? File uninit_memory_access.c, line 26
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:199
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (21 calls) provided
+Where? File uninit_memory_access.c, line 199
+Why? -
+How to fix? -
+
+01.w_Defects/insign_code.c:23
+clang (correct):
+What? Dead assignment
+When? -
+Where? File insign_code.c, line 23
+Why? Value stored to 'i' is never read
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:62
+clang (correct):
+What? Bad free
+When? Path (10 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 62
+Why? Argument to free() is the address of the local variable 'ptr1', which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/bit_shift.c:145
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (24 calls) provided
+Where? File bit_shift.c, line 145
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:332
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (40 calls) provided
+Where? File buffer_overrun_dynamic.c, line 332
+Why? The right operand of '+' is a garbage value
+How to fix? -
+
+01.w_Defects/double_free.c:222
+clang (correct):
+What? Double free
+When? Path (30 calls) provided
+Where? File double_free.c, line 222
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/zero_division.c:76
+clang (correct):
+What? Division by zero
+When? Path (12 calls) provided
+Where? File zero_division.c, line 76
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:22
+clang (correct):
+What? Double free
+When? Path (5 calls) provided
+Where? File double_free.c, line 22
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/uninit_var.c:62
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (13 calls) provided
+Where? File uninit_var.c, line 62
+Why? -
+How to fix? -
+
+01.w_Defects/ow_memcpy.c:41
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (9 calls) provided
+Where? File ow_memcpy.c, line 41
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:319
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (50 calls) provided
+Where? File overrun_st.c, line 319
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:53
+clang (correct):
+What? Uninitialized argument value
+When? Path (11 calls) provided
+Where? File uninit_memory_access.c, line 53
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:204
+clang (correct):
+What? Division by zero
+When? Path (32 calls) provided
+Where? File zero_division.c, line 204
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:21
+clang (correct):
+What? Division by zero
+When? Path (3 calls) provided
+Where? File zero_division.c, line 21
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:164
+clang (correct):
+What? Dead assignment
+When? -
+Where? File zero_division.c, line 164
+Why? Value stored to 'ret' is never read
+How to fix? -
+
+01.w_Defects/null_pointer.c:92
+clang (correct):
+What? Dereference of null pointer
+When? Path (13 calls) provided
+Where? File null_pointer.c, line 92
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:224
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (34 calls) provided
+Where? File bit_shift.c, line 224
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/return_local.c:19
+clang (correct):
+What? Return of address to stack-allocated memory
+When? Path (4 calls) provided
+Where? File return_local.c, line 19
+Why? Address of stack memory associated with local variable 'buf' returned to caller
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:187
+clang (correct):
+What? Bad free
+When? Path (28 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 187
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+
+01.w_Defects/null_pointer.c:171
+clang (correct):
+What? Dereference of null pointer
+When? Path (27 calls) provided
+Where? File null_pointer.c, line 171
+Why? Dereference of null pointer (loaded from variable 'p2')
+How to fix? -
+
+01.w_Defects/zero_division.c:32
+clang (correct):
+What? Division by zero
+When? Path (6 calls) provided
+Where? File zero_division.c, line 32
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:187
+clang (correct):
+What? Double free
+When? Path (26 calls) provided
+Where? File double_free.c, line 187
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/zero_division.c:176
+clang (correct):
+What? Division by zero
+When? Path (26 calls) provided
+Where? File zero_division.c, line 176
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:126
+clang (correct):
+What? Uninitialized argument value
+When? Path (15 calls) provided
+Where? File uninit_memory_access.c, line 126
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:162
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (26 calls) provided
+Where? File bit_shift.c, line 162
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:73
+clang (correct):
+What? Uninitialized argument value
+When? Path (12 calls) provided
+Where? File uninit_memory_access.c, line 73
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:20
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (3 calls) provided
+Where? File bit_shift.c, line 20
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:380
+clang (correct):
+What? Function call with too few arguments
+When? Path (28 calls) provided
+Where? File wrong_arguments_func_pointer.c, line 380
+Why? Function taking 2 arguments is called with less (1)
+How to fix? -
+
+01.w_Defects/unused_var.c:23
+clang (correct):
+What? Dead assignment
+When? -
+Where? File unused_var.c, line 23
+Why? Value stored to 'unuse' is never read
+How to fix? -
+
+01.w_Defects/bit_shift.c:132
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (22 calls) provided
+Where? File bit_shift.c, line 132
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/uninit_var.c:33
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (6 calls) provided
+Where? File uninit_var.c, line 33
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:54
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (8 calls) provided
+Where? File uninit_pointer.c, line 54
+Why? Dereference of undefined pointer value
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:186
+clang (correct):
+What? Uninitialized argument value
+When? Path (23 calls) provided
+Where? File uninit_pointer.c, line 186
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:97
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (18 calls) provided
+Where? File uninit_memory_access.c, line 97
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:101
+clang (correct):
+What? Double free
+When? Path (16 calls) provided
+Where? File double_free.c, line 101
+Why? Attempt to free released memory
+How to fix? -
+
+01.w_Defects/uninit_var.c:44
+clang (correct):
+What? Assigned value is garbage or undefined
+When? Path (8 calls) provided
+Where? File uninit_var.c, line 44
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:70
+clang (correct):
+What? Uninitialized argument value
+When? Path (11 calls) provided
+Where? File uninit_pointer.c, line 70
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:103
+clang (correct):
+What? Dereference of undefined pointer value
+When? Path (15 calls) provided
+Where? File uninit_pointer.c, line 103
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:68
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (12 calls) provided
+Where? File bit_shift.c, line 68
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:578
+clang (correct):
+What? Function call with too few arguments
+When? Path (3 calls) provided
+Where? File wrong_arguments_func_pointer.c, line 578
+Why? Function taking 2 arguments is called with less (1)
+How to fix? -
+
+01.w_Defects/uninit_var.c:177
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (26 calls) provided
+Where? File uninit_var.c, line 177
+Why? The right operand of '+' is a garbage value
+How to fix? -
+
+01.w_Defects/zero_division.c:45
+clang (correct):
+What? Division by zero
+When? Path (8 calls) provided
+Where? File zero_division.c, line 45
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:318
+clang (correct):
+What? Uninitialized argument value
+When? Path (25 calls) provided
+Where? File uninit_memory_access.c, line 318
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:207
+clang (correct):
+What? Result of operation is garbage or undefined
+When? Path (32 calls) provided
+Where? File bit_shift.c, line 207
+Why? The result of the '<<' expression is undefined
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:48
+clang (correct):
+What? Bad free
+When? Path (8 calls) provided
+Where? File free_nondynamic_allocated_memory.c, line 48
+Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
+How to fix? -
+

@@ -1,0 +1,3861 @@
+01.w_Defects/bit_shift.c:20
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_001 <- bit_shift_main <- main. Called from bit_shift.c:248.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:32
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_002 <- bit_shift_main <- main. Called from bit_shift.c:253.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:44
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_003 <- bit_shift_main <- main. Called from bit_shift.c:258.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:56
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_004 <- bit_shift_main <- main. Called from bit_shift.c:263.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:68
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_005 <- bit_shift_main <- main. Called from bit_shift.c:268.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)(-1) < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:80
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_006 <- bit_shift_main <- main. Called from bit_shift.c:273.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:92
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_007 <- bit_shift_main <- main. Called from bit_shift.c:278.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)(-1) < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:105
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_008 <- bit_shift_main <- main. Called from bit_shift.c:283.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shift < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:119
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_009 <- bit_shift_main <- main. Called from bit_shift.c:288.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shift < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:119
+framac (correct):
+What? Signed overflow.
+When? Function bit_shift_009 <- bit_shift_main <- main. Called from bit_shift.c:288.
+Where? File, line, function
+Who? -
+Why? assert a_4 << shift ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/bit_shift.c:132
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_010 <- bit_shift_main <- main. Called from bit_shift.c:293.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)((int)(5 * shift) + 2) < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:145
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_011 <- bit_shift_main <- main. Called from bit_shift.c:298.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)((int)(shift * shift) + 7) < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:162
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_012 <- bit_shift_main <- main. Called from bit_shift.c:303.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ tmp < 32; (tmp from bit_shift_012_func_001())
+How to fix? -
+
+01.w_Defects/bit_shift.c:174
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_013_func_001 <- bit_shift_013 <- bit_shift_main <- main. Called from bit_shift.c:180.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shift < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:192
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_014 <- bit_shift_main <- main. Called from bit_shift.c:313.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shifts[3] < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:207
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_015 <- bit_shift_main <- main. Called from bit_shift.c:318.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shift1 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:224
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_016 <- bit_shift_main <- main. Called from bit_shift.c:323.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ shift2 < 32;
+How to fix? -
+
+01.w_Defects/bit_shift.c:235
+framac (correct):
+What? Invalid RHS operand for shift.
+When? Function bit_shift_017 <- bit_shift_main <- main. Called from bit_shift.c:328.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ 32 < 32;
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:26
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_001 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:620.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:41
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_002 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:625.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:61
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_003 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:630.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:76
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_004 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:635.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:93
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_005 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:640.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:111
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_006 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:645.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:129
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_007 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:650.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:151
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_008 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:655.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:151
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_008 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:655.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(buf + i) + j);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:173
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_009 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:660.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(pbuf_0[i]) + j);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:197
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_010 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:665.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(sbuf + 5)->a);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:217
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_011 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:670.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(s_0 + 5)->buf[4]);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:232
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_012 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:675.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index_0);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:247
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_013 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:680.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index_0);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:262
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_014 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:685.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)((int)(2 * index_0) + 1));
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:277
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_015 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:690.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)((int)(index_0 * index_0) + 1));
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:297
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_016 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:695.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + tmp_0); (tmp_0 from dynamic_buffer_overrun_016_func_001())
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:311
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_017_func_001 <- dynamic_buffer_overrun_017 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:318.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index_0);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:332
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_overrun_018 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:705.
+Where? File, line, function
+Who? -
+Why? assert index_0 < 4;
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:349
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_019 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:710.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index1);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:368
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_020 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:715.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index2);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:386
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_021 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:720.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2 + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:402
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_022 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:725.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:421
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_023 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:730.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:434
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_024_func_001 <- dynamic_buffer_overrun_024 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:441.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:461
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_025 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:740.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:479
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_026 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:745.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:495
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_027 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:750.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 30);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:513
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_028 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:755.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf1_0 + 5);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:513
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_028 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:755.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf2_0 + *(buf1_0 + 5));
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:531
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_029 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:760.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)(i + 1));
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:558
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_030 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:765.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(doubleptr_0 + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:558
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_030 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:765.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr_0 + i) + j);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:579
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_031 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:770.
+Where? File, line, function
+Who? -
+Why? assert \valid(ptr1 + i);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:606
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_032 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:775.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(ptr_s + i)->arr[i]);
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:606
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_overrun_032 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:775.
+Where? File, line, function
+Who? -
+Why? assert i < 10;
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:28
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_001 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:794.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:44
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_002 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:799.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - 5);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:64
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_003 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:804.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf + (int)(-1));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:79
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_004 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:809.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - 5);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:96
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_005 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:814.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:114
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_006 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:819.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:132
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_007 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:824.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:154
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_008 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:829.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:154
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_008 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:829.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(buf + i) + j);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:177
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_underrun_009 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:834.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)(i - 3);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:177
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_underrun_009 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:834.
+Where? File, line, function
+Who? -
+Why? assert (int)(i - 3) < 5;
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:201
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_010 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:839.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(sbuf + (int)(-1))->a);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:221
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_011 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:844.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(s_0 - 5)->buf[4]);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:236
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_012 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:849.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - index_0);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:252
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_013 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:854.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)(-index_0));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:267
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_014 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:859.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)((int)((int)(-2) * index_0) + 1));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:282
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_015 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:864.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)((int)(index_0 * index_0) - 5));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:302
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_016 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:869.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + tmp_0); (tmp_0 from dynamic_buffer_underrun_016_func_001())
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:316
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_017_func_001 <- dynamic_buffer_underrun_017 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:323.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - index_0);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:337
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_018 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:879.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - indexes[index_0]);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:354
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_019 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:884.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index1);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:373
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_020 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:889.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + index2);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:391
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_021 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:894.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2 - 5);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:407
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_022 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:899.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 5);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:426
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_023 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:904.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:438
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_024_func_001 <- dynamic_buffer_underrun_024 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:446.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf - 5);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:465
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_025 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:914.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:483
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_026 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:919.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 10);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:499
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_027 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:924.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 10);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:518
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_028 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:929.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf1_0 + 4);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:518
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_028 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:929.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf2_0 - *(buf1_0 + 4));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:531
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_029 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:934.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + (int)(-1));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:558
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_030 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:939.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(doubleptr_0 + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:558
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_030 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:939.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr_0 + i) + j);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:579
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_031 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:944.
+Where? File, line, function
+Who? -
+Why? assert \valid(ptr1 + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:605
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_underrun_032 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:949.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ i;
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:605
+framac (correct):
+What? Accessing out of bounds index.
+When? Function dynamic_buffer_underrun_032 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:949.
+Where? File, line, function
+Who? -
+Why? assert i < 10;
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:623
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_033 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:954.
+Where? File, line, function
+Who? -
+Why? assert \valid(message + len);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:647
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_034 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:959.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(srcbuf + i);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:678
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_035 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:964.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr_0 + 0) + loc2);
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:700
+framac (correct):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_036 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:969.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(newTest + (int)(-10));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:720
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_037 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:974.
+Where? File, line, function
+Who? -
+Why? assert \valid(doubleptr_0 + (int)(i - 10));
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:750
+framac (correct):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_038 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:979.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(new_s + loc)->arr[i]);
+How to fix? -
+
+01.w_Defects/data_lost.c:56
+framac (correct):
+What? Overflow in conversion from floating-point to integer.
+When? Function data_lost_004 <- data_lost_main <- main. Called from data_lost.c:282.
+Where? File, line, function
+Who? -
+Why? assert a_4 < 2147483648;
+How to fix? -
+
+01.w_Defects/data_lost.c:68
+framac (correct):
+What? Overflow in conversion from floating-point to integer.
+When? Function data_lost_005 <- data_lost_main <- main. Called from data_lost.c:287.
+Where? File, line, function
+Who? -
+Why? assert a_4 < 2147483648;
+How to fix? -
+
+01.w_Defects/data_lost.c:80
+framac (correct):
+What? Non-finite float value.
+When? Function data_lost_006 <- data_lost_main <- main. Called from data_lost.c:292.
+Where? File, line, function
+Who? -
+Why? assert \is_finite((float)a_4);
+How to fix? -
+
+01.w_Defects/data_overflow.c:47
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_003 <- data_overflow_main <- main. Called from data_overflow.c:371.
+Where? File, line, function
+Who? -
+Why? assert max_0 + 1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:59
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_004 <- data_overflow_main <- main. Called from data_overflow.c:376.
+Where? File, line, function
+Who? -
+Why? assert max_0 + (long)1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:164
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_012 <- data_overflow_main <- main. Called from data_overflow.c:416.
+Where? File, line, function
+Who? -
+Why? assert max_0 + 128 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:176
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_013 <- data_overflow_main <- main. Called from data_overflow.c:421.
+Where? File, line, function
+Who? -
+Why? assert max_0 * 2 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:189
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_014 <- data_overflow_main <- main. Called from data_overflow.c:426.
+Where? File, line, function
+Who? -
+Why? assert max_0 + d ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:203
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_015 <- data_overflow_main <- main. Called from data_overflow.c:431.
+Where? File, line, function
+Who? -
+Why? assert max_0 + d ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:215
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_016 <- data_overflow_main <- main. Called from data_overflow.c:436.
+Where? File, line, function
+Who? -
+Why? assert (int)(5 * max_0) + 3 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:227
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_017 <- data_overflow_main <- main. Called from data_overflow.c:441.
+Where? File, line, function
+Who? -
+Why? assert (int)(max_0 * max_0) + 88048 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:244
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_018 <- data_overflow_main <- main. Called from data_overflow.c:446.
+Where? File, line, function
+Who? -
+Why? assert max_0 + tmp ≤ 2147483647; (tmp from data_overflow_018_func_001())
+How to fix? -
+
+01.w_Defects/data_overflow.c:256
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_019_func_001 <- data_overflow_019 <- data_overflow_main <- main. Called from data_overflow.c:262.
+Where? File, line, function
+Who? -
+Why? assert max_0 + d ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:274
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_020 <- data_overflow_main <- main. Called from data_overflow.c:456.
+Where? File, line, function
+Who? -
+Why? assert max_0 + dlist[1] ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:289
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_021 <- data_overflow_main <- main. Called from data_overflow.c:461.
+Where? File, line, function
+Who? -
+Why? assert max_0 + d1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:306
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_022 <- data_overflow_main <- main. Called from data_overflow.c:466.
+Where? File, line, function
+Who? -
+Why? assert max_0 + d2 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:317
+framac (correct):
+What? Signed overflow.
+When? Function data_overflow_023 <- data_overflow_main <- main. Called from data_overflow.c:471.
+Where? File, line, function
+Who? -
+Why? assert 0x7fffffff + 1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/data_overflow.c:333
+framac (correct):
+What? Non-finite float value.
+When? Function data_overflow_024 <- data_overflow_main <- main. Called from data_overflow.c:476.
+Where? File, line, function
+Who? -
+Why? assert \is_finite((float)(max_0 + 2.02824096e+31F));
+How to fix? -
+
+01.w_Defects/data_overflow.c:349
+framac (correct):
+What? Non-finite double value.
+When? Function data_overflow_025 <- data_overflow_main <- main. Called from data_overflow.c:481.
+Where? File, line, function
+Who? -
+Why? assert \is_finite((double)(max_0 + 1.9958403095347198e+292));
+How to fix? -
+
+01.w_Defects/data_underflow.c:20
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_001 <- data_underflow_main <- main. Called from data_underflow.c:183.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 - 2;
+How to fix? -
+
+01.w_Defects/data_underflow.c:45
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_003 <- data_underflow_main <- main. Called from data_underflow.c:193.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 - 1;
+How to fix? -
+
+01.w_Defects/data_underflow.c:58
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_004 <- data_underflow_main <- main. Called from data_underflow.c:198.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 - 128;
+How to fix? -
+
+01.w_Defects/data_underflow.c:70
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_005 <- data_underflow_main <- main. Called from data_underflow.c:203.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 * 2;
+How to fix? -
+
+01.w_Defects/data_underflow.c:81
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_006 <- data_underflow_main <- main. Called from data_underflow.c:208.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ (int)(-2147483647) - 2;
+How to fix? -
+
+01.w_Defects/data_underflow.c:140
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_010 <- data_underflow_main <- main. Called from data_underflow.c:228.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 - tmp; (tmp from data_underflow_010_func_001())
+How to fix? -
+
+01.w_Defects/data_underflow.c:152
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_011_func_001 <- data_underflow_011 <- data_underflow_main <- main. Called from data_underflow.c:158.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 - d;
+How to fix? -
+
+01.w_Defects/data_underflow.c:170
+framac (correct):
+What? Signed overflow.
+When? Function data_underflow_012 <- data_underflow_main <- main. Called from data_underflow.c:238.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ min_0 + dlist[2];
+How to fix? -
+
+01.w_Defects/endless_loop.c:22
+framac (correct):
+What? Signed overflow.
+When? Function endless_loop_001 <- endless_loop_main <- main. Called from endless_loop.c:182.
+Where? File, line, function
+Who? -
+Why? assert i + 1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/func_pointer.c:42
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_001 <- func_pointer_main <- main. Called from func_pointer.c:619.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/func_pointer.c:61
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_002 <- func_pointer_main <- main. Called from func_pointer.c:624.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:81
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_003 <- func_pointer_main <- main. Called from func_pointer.c:629.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/func_pointer.c:123
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_004 <- func_pointer_main <- main. Called from func_pointer.c:634.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:172
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_005 <- func_pointer_main <- main. Called from func_pointer.c:639.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:256
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_006 <- func_pointer_main <- main. Called from func_pointer.c:644.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:285
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_007 <- func_pointer_main <- main. Called from func_pointer.c:649.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:308
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_008 <- func_pointer_main <- main. Called from func_pointer.c:654.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:352
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_009 <- func_pointer_main <- main. Called from func_pointer.c:659.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/func_pointer.c:375
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_010 <- func_pointer_main <- main. Called from func_pointer.c:664.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func1);
+How to fix? -
+
+01.w_Defects/func_pointer.c:419
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_011 <- func_pointer_main <- main. Called from func_pointer.c:669.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr1);
+How to fix? -
+
+01.w_Defects/func_pointer.c:454
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_012 <- func_pointer_main <- main. Called from func_pointer.c:674.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/func_pointer.c:485
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_013_func_002 <- func_pointer_013 <- func_pointer_main <- main. Called from func_pointer.c:498.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func_gbl_0);
+How to fix? -
+
+01.w_Defects/func_pointer.c:538
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_014_func_002 <- func_pointer_014 <- func_pointer_main <- main. Called from func_pointer.c:548.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func_gbl);
+How to fix? -
+
+01.w_Defects/func_pointer.c:592
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function func_pointer_015_func_004 <- func_pointer_015 <- func_pointer_main <- main. Called from func_pointer.c:607.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr_gbl);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:36
+framac (correct):
+What? Out of bounds read.
+When? Function littlemem_st_001 <- littlemem_st_main <- main. Called from littlemem_st.c:362.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(&p_0->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:55
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_002 <- littlemem_st_main <- main. Called from littlemem_st.c:367.
+Where? File, line, function
+Who? -
+Why? assert \valid(&p_0->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:73
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_003 <- littlemem_st_main <- main. Called from littlemem_st.c:372.
+Where? File, line, function
+Who? -
+Why? assert \valid(&p_0->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:92
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_004 <- littlemem_st_main <- main. Called from littlemem_st.c:377.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_004_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:117
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_005 <- littlemem_st_main <- main. Called from littlemem_st.c:382.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_005_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:144
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_006_func_002 <- littlemem_st_006 <- littlemem_st_main <- main. Called from littlemem_st.c:151.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_006_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:185
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_007_func_002 <- littlemem_st_007 <- littlemem_st_main <- main. Called from littlemem_st.c:193.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_007_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:228
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_008_func_002 <- littlemem_st_008 <- littlemem_st_main <- main. Called from littlemem_st.c:237.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_008_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:272
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_009_func_002 <- littlemem_st_009 <- littlemem_st_main <- main. Called from littlemem_st.c:281.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_009_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:307
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_010_func_002 <- littlemem_st_010 <- littlemem_st_main <- main. Called from littlemem_st.c:313.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_010_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/littlemem_st.c:343
+framac (correct):
+What? Out of bounds write.
+When? Function littlemem_st_011_func_002 <- littlemem_st_011 <- littlemem_st_main <- main. Called from littlemem_st.c:351.
+Where? File, line, function
+Who? -
+Why? assert \valid(&littlemem_st_011_s_001_gbl_str->c);
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:181
+framac (correct):
+What? Out of bounds write.
+When? Function memory_allocation_failure_006_func_002 <- memory_allocation_failure_006 <- memory_allocation_failure_main <- main. Called from memory_allocation_failure.c:193.
+Where? File, line, function
+Who? -
+Why? assert \valid(memory_allocation_failure_006_gbl_doubleptr + i);
+How to fix? -
+
+01.w_Defects/null_pointer.c:21
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_001 <- null_pointer_main <- main. Called from null_pointer.c:359.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:32
+framac (correct):
+What? Out of bounds read.
+When? Function null_pointer_002 <- null_pointer_main <- main. Called from null_pointer.c:364.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:45
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_003 <- null_pointer_main <- main. Called from null_pointer.c:369.
+Where? File, line, function
+Who? -
+Why? assert \valid(*pp);
+How to fix? -
+
+01.w_Defects/null_pointer.c:61
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_004 <- null_pointer_main <- main. Called from null_pointer.c:374.
+Where? File, line, function
+Who? -
+Why? assert \valid(&p_0->a);
+How to fix? -
+
+01.w_Defects/null_pointer.c:92
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_005 <- null_pointer_main <- main. Called from null_pointer.c:379.
+Where? File, line, function
+Who? -
+Why? assert \valid(&p_0->s1.a);
+How to fix? -
+
+01.w_Defects/null_pointer.c:103
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_006 <- null_pointer_main <- main. Called from null_pointer.c:384.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:115
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_007 <- null_pointer_main <- main. Called from null_pointer.c:389.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:131
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_008 <- null_pointer_main <- main. Called from null_pointer.c:394.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:140
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_009_func_001 <- null_pointer_009 <- null_pointer_main <- main. Called from null_pointer.c:145.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:157
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_010 <- null_pointer_main <- main. Called from null_pointer.c:404.
+Where? File, line, function
+Who? -
+Why? assert \valid(p1);
+How to fix? -
+
+01.w_Defects/null_pointer.c:171
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_011 <- null_pointer_main <- main. Called from null_pointer.c:409.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2);
+How to fix? -
+
+01.w_Defects/null_pointer.c:178
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_012 <- null_pointer_main <- main. Called from null_pointer.c:414.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 3);
+How to fix? -
+
+01.w_Defects/null_pointer.c:194
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_013 <- null_pointer_main <- main. Called from null_pointer.c:419.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:211
+framac (correct):
+What? Out of bounds write.
+When? Function null_pointer_014 <- null_pointer_main <- main. Called from null_pointer.c:424.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/null_pointer.c:287
+framac (correct):
+What? Out of bounds read.
+When? Function null_pointer_016 <- null_pointer_main <- main. Called from null_pointer.c:434.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(null_pointer_016_gbl_doubleptr + i);
+How to fix? -
+
+01.w_Defects/null_pointer.c:335
+framac (correct):
+What? Out of bounds read.
+When? Function null_pointer_017 <- null_pointer_main <- main. Called from null_pointer.c:439.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(null_pointer_017dst + i);
+How to fix? -
+
+01.w_Defects/overrun_st.c:20
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_001 <- overrun_st_main <- main. Called from overrun_st.c:785.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:31
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_002 <- overrun_st_main <- main. Called from overrun_st.c:790.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:43
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_003 <- overrun_st_main <- main. Called from overrun_st.c:795.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:54
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_004 <- overrun_st_main <- main. Called from overrun_st.c:800.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:65
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_005 <- overrun_st_main <- main. Called from overrun_st.c:805.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:76
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_006 <- overrun_st_main <- main. Called from overrun_st.c:810.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:87
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_007 <- overrun_st_main <- main. Called from overrun_st.c:815.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:98
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_008 <- overrun_st_main <- main. Called from overrun_st.c:820.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:109
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_009 <- overrun_st_main <- main. Called from overrun_st.c:825.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:125
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_010 <- overrun_st_main <- main. Called from overrun_st.c:830.
+Where? File, line, function
+Who? -
+Why? assert \valid(pbuf_0[4] + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:141
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_011 <- overrun_st_main <- main. Called from overrun_st.c:835.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:157
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_012 <- overrun_st_main <- main. Called from overrun_st.c:840.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:168
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_013 <- overrun_st_main <- main. Called from overrun_st.c:845.
+Where? File, line, function
+Who? -
+Why? assert index_0 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:181
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_014 <- overrun_st_main <- main. Called from overrun_st.c:850.
+Where? File, line, function
+Who? -
+Why? assert index_0 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:193
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_015 <- overrun_st_main <- main. Called from overrun_st.c:855.
+Where? File, line, function
+Who? -
+Why? assert (int)((int)(2 * index_0) + 1) < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:205
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_016 <- overrun_st_main <- main. Called from overrun_st.c:860.
+Where? File, line, function
+Who? -
+Why? assert (int)((int)(index_0 * index_0) + 1) < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:221
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_017 <- overrun_st_main <- main. Called from overrun_st.c:865.
+Where? File, line, function
+Who? -
+Why? assert tmp < 5; (tmp from overrun_st_017_func_001())
+How to fix? -
+
+01.w_Defects/overrun_st.c:232
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_018_func_001 <- overrun_st_018 <- overrun_st_main <- main. Called from overrun_st.c:237.
+Where? File, line, function
+Who? -
+Why? assert index_0 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:249
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_019 <- overrun_st_main <- main. Called from overrun_st.c:875.
+Where? File, line, function
+Who? -
+Why? assert indexes[index_0] < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:263
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_020 <- overrun_st_main <- main. Called from overrun_st.c:880.
+Where? File, line, function
+Who? -
+Why? assert index1 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:279
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_021 <- overrun_st_main <- main. Called from overrun_st.c:885.
+Where? File, line, function
+Who? -
+Why? assert index2 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:292
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_022 <- overrun_st_main <- main. Called from overrun_st.c:890.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:305
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_023 <- overrun_st_main <- main. Called from overrun_st.c:895.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:319
+framac (correct):
+What? Out of bounds read.
+When? Function overrun_st_024 <- overrun_st_main <- main. Called from overrun_st.c:900.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:332
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_025 <- overrun_st_main <- main. Called from overrun_st.c:905.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:345
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_026 <- overrun_st_main <- main. Called from overrun_st.c:910.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:358
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_027 <- overrun_st_main <- main. Called from overrun_st.c:915.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:371
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_028 <- overrun_st_main <- main. Called from overrun_st.c:920.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:386
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_029 <- overrun_st_main <- main. Called from overrun_st.c:925.
+Where? File, line, function
+Who? -
+Why? assert \valid(*pp + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:401
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_030 <- overrun_st_main <- main. Called from overrun_st.c:930.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:414
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_031 <- overrun_st_main <- main. Called from overrun_st.c:935.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:427
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_032 <- overrun_st_main <- main. Called from overrun_st.c:940.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + index_0);
+How to fix? -
+
+01.w_Defects/overrun_st.c:442
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_033 <- overrun_st_main <- main. Called from overrun_st.c:945.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + index_0);
+How to fix? -
+
+01.w_Defects/overrun_st.c:456
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_034 <- overrun_st_main <- main. Called from overrun_st.c:950.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + (int)((int)(2 * index_0) + 1));
+How to fix? -
+
+01.w_Defects/overrun_st.c:470
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_035 <- overrun_st_main <- main. Called from overrun_st.c:955.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + (int)((int)(index_0 * index_0) + 1));
+How to fix? -
+
+01.w_Defects/overrun_st.c:488
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_036 <- overrun_st_main <- main. Called from overrun_st.c:960.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + tmp); (tmp from overrun_st_036_func_001())
+How to fix? -
+
+01.w_Defects/overrun_st.c:501
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_037_func_001 <- overrun_st_037 <- overrun_st_main <- main. Called from overrun_st.c:507.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + index_0);
+How to fix? -
+
+01.w_Defects/overrun_st.c:521
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_038 <- overrun_st_main <- main. Called from overrun_st.c:970.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + indexes[index_0]);
+How to fix? -
+
+01.w_Defects/overrun_st.c:537
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_039 <- overrun_st_main <- main. Called from overrun_st.c:975.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + index1);
+How to fix? -
+
+01.w_Defects/overrun_st.c:555
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_040 <- overrun_st_main <- main. Called from overrun_st.c:980.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + index2);
+How to fix? -
+
+01.w_Defects/overrun_st.c:569
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_041 <- overrun_st_main <- main. Called from overrun_st.c:985.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:587
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_042 <- overrun_st_main <- main. Called from overrun_st.c:990.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:612
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_043 <- overrun_st_main <- main. Called from overrun_st.c:995.
+Where? File, line, function
+Who? -
+Why? assert \valid(pbuf_0[i] + j);
+How to fix? -
+
+01.w_Defects/overrun_st.c:629
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_044 <- overrun_st_main <- main. Called from overrun_st.c:1000.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/overrun_st.c:641
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_045_func_001 <- overrun_st_045 <- overrun_st_main <- main. Called from overrun_st.c:647.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:657
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_046_func_001 <- overrun_st_046 <- overrun_st_main <- main. Called from overrun_st.c:663.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:673
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_047_func_001 <- overrun_st_047 <- overrun_st_main <- main. Called from overrun_st.c:679.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:688
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_048_func_001 <- overrun_st_048 <- overrun_st_main <- main. Called from overrun_st.c:694.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:705
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_049 <- overrun_st_main <- main. Called from overrun_st.c:1025.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:723
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_050 <- overrun_st_main <- main. Called from overrun_st.c:1030.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:738
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_051 <- overrun_st_main <- main. Called from overrun_st.c:1035.
+Where? File, line, function
+Who? -
+Why? assert \valid(pbuf_0[4] + 5);
+How to fix? -
+
+01.w_Defects/overrun_st.c:748
+framac (correct):
+What? Accessing out of bounds index.
+When? Function overrun_st_052 <- overrun_st_main <- main. Called from overrun_st.c:1040.
+Where? File, line, function
+Who? -
+Why? assert 5 < 5;
+How to fix? -
+
+01.w_Defects/overrun_st.c:760
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_053 <- overrun_st_main <- main. Called from overrun_st.c:1045.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 2);
+How to fix? -
+
+01.w_Defects/overrun_st.c:772
+framac (correct):
+What? Out of bounds write.
+When? Function overrun_st_054 <- overrun_st_main <- main. Called from overrun_st.c:1050.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 50);
+How to fix? -
+
+01.w_Defects/ow_memcpy.c:41
+framac (correct):
+What? Out of bounds write.
+When? Function ow_memcpy_002_func_001 <- ow_memcpy_002 <- ow_memcpy_main <- main. Called from ow_memcpy.c:50.
+Where? File, line, function
+Who? -
+Why? assert \valid(q);
+How to fix? -
+
+01.w_Defects/ow_memcpy.c:41
+framac (correct):
+What? Out of bounds read.
+When? Function ow_memcpy_002_func_001 <- ow_memcpy_002 <- ow_memcpy_main <- main. Called from ow_memcpy.c:50.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(p_0);
+How to fix? -
+
+01.w_Defects/pow_related_errors.c:158
+framac (correct):
+What? Non-finite double value.
+When? Function pow_related_errors_007 <- pow_related_errors_main <- main. Called from pow_related_errors.c:533.
+Where? File, line, function
+Who? -
+Why? assert \is_finite(newarr->arr[0]);
+How to fix? -
+
+01.w_Defects/ptr_subtraction.c:22
+framac (correct):
+What? Pointer subtraction.
+When? Function ptr_subtraction_001 <- ptr_subtraction_main <- main. Called from ptr_subtraction.c:47.
+Where? File, line, function
+Who? -
+Why? assert \base_addr((char *)buf2_0) ≡ \base_addr((char *)buf1_0);
+How to fix? -
+
+01.w_Defects/return_local.c:19
+framac (correct):
+What? Locals {buf} escaping the scope of return_local_001_func_001 through \result
+When? Function return_local_001_func_001 <- return_local_001 <- return_local_main <- main. Called from return_local.c:25.
+Where? File, line, function
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/return_local.c:43
+framac (correct):
+What? Accessing left-value that contains escaping addresses.
+When? Function return_local_002 <- return_local_main <- main. Called from return_local.c:60.
+Where? File, line, function
+Who? -
+Why? assert ¬\dangling(&p_0);
+How to fix? -
+
+01.w_Defects/underrun_st.c:21
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_001 <- underrun_st_main <- main. Called from underrun_st.c:204.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)(-1);
+How to fix? -
+
+01.w_Defects/underrun_st.c:21
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_001 <- underrun_st_main <- main. Called from underrun_st.c:204.
+Where? File, line, function
+Who? -
+Why? assert (int)(-1) < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:31
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_002 <- underrun_st_main <- main. Called from underrun_st.c:209.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ (int)(-1);
+How to fix? -
+
+01.w_Defects/underrun_st.c:31
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_002 <- underrun_st_main <- main. Called from underrun_st.c:209.
+Where? File, line, function
+Who? -
+Why? assert (int)(-1) < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:42
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_003 <- underrun_st_main <- main. Called from underrun_st.c:214.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ index_0;
+How to fix? -
+
+01.w_Defects/underrun_st.c:42
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_003 <- underrun_st_main <- main. Called from underrun_st.c:214.
+Where? File, line, function
+Who? -
+Why? assert index_0 < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:55
+framac (correct):
+What? Out of bounds read.
+When? Function underrun_st_004 <- underrun_st_main <- main. Called from underrun_st.c:219.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(p_0 - 1);
+How to fix? -
+
+01.w_Defects/underrun_st.c:67
+framac (correct):
+What? Out of bounds write.
+When? Function underrun_st_005 <- underrun_st_main <- main. Called from underrun_st.c:224.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 1);
+How to fix? -
+
+01.w_Defects/underrun_st.c:80
+framac (correct):
+What? Out of bounds write.
+When? Function underrun_st_006 <- underrun_st_main <- main. Called from underrun_st.c:229.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - index_0);
+How to fix? -
+
+01.w_Defects/underrun_st.c:93
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_007 <- underrun_st_main <- main. Called from underrun_st.c:234.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ i;
+How to fix? -
+
+01.w_Defects/underrun_st.c:93
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_007 <- underrun_st_main <- main. Called from underrun_st.c:234.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:110
+framac (correct):
+What? Out of bounds write.
+When? Function underrun_st_008 <- underrun_st_main <- main. Called from underrun_st.c:239.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/underrun_st.c:124
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_009 <- underrun_st_main <- main. Called from underrun_st.c:244.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ i;
+How to fix? -
+
+01.w_Defects/underrun_st.c:124
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_009 <- underrun_st_main <- main. Called from underrun_st.c:244.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:141
+framac (correct):
+What? Out of bounds write.
+When? Function underrun_st_010 <- underrun_st_main <- main. Called from underrun_st.c:249.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/underrun_st.c:155
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_011 <- underrun_st_main <- main. Called from underrun_st.c:254.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ i;
+How to fix? -
+
+01.w_Defects/underrun_st.c:155
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_011 <- underrun_st_main <- main. Called from underrun_st.c:254.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/underrun_st.c:173
+framac (correct):
+What? Out of bounds write.
+When? Function underrun_st_012 <- underrun_st_main <- main. Called from underrun_st.c:259.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+01.w_Defects/underrun_st.c:190
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_013 <- underrun_st_main <- main. Called from underrun_st.c:264.
+Where? File, line, function
+Who? -
+Why? assert 0 ≤ i;
+How to fix? -
+
+01.w_Defects/underrun_st.c:190
+framac (correct):
+What? Accessing out of bounds index.
+When? Function underrun_st_013 <- underrun_st_main <- main. Called from underrun_st.c:264.
+Where? File, line, function
+Who? -
+Why? assert i < 5;
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:26
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_001 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:463.
+Where? File, line, function
+Who? -
+Why? assert \initialized(ret_0);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:38
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_memory_access_002 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:468.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(a_4 + 1);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:38
+framac (correct):
+What? Non-finite double value.
+When? Function uninit_memory_access_002 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:468.
+Where? File, line, function
+Who? -
+Why? assert \is_finite(*(a_4 + 1));
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:53
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_003 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:473.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&str2);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:73
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_memory_access_004 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:478.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(*ptr);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:97
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_005 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:483.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&arr1_0[1][2][3]);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:126
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_006 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:488.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&str2);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:154
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_007_func_002 <- uninit_memory_access_007 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:175.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&st->arr[i]);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:199
+framac (correct):
+What? Out of bounds write.
+When? Function uninit_memory_access_008 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:498.
+Where? File, line, function
+Who? -
+Why? assert \valid(&s_0->b);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:248
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:503.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(uninit_memory_access_009_doubleptr_gbl + i);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:248
+framac (correct):
+What? Out of bounds write.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:503.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(uninit_memory_access_009_doubleptr_gbl + i) + j);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:248
+framac (correct):
+What? Signed overflow.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:503.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ *(*(uninit_memory_access_009_doubleptr_gbl + i) + j) + (long)1;
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:248
+framac (correct):
+What? Signed overflow.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:503.
+Where? File, line, function
+Who? -
+Why? assert *(*(uninit_memory_access_009_doubleptr_gbl + i) + j) + (long)1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:297
+framac (correct):
+What? Signed overflow.
+When? Function uninit_memory_access_010 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:508.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ (int)uninit_memory_access_010_s_001_arr_gbl->data + 1;
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:297
+framac (correct):
+What? Signed overflow.
+When? Function uninit_memory_access_010 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:508.
+Where? File, line, function
+Who? -
+Why? assert (int)uninit_memory_access_010_s_001_arr_gbl->data + 1 ≤ 2147483647;
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:318
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_011 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:513.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&str);
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:418
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_memory_access_014 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:528.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(&p_0->b);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:29
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_001 <- uninit_pointer_main <- main. Called from uninit_pointer.c:432.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&p_0);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:40
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_002 <- uninit_pointer_main <- main. Called from uninit_pointer.c:437.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&p_0);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:54
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_003 <- uninit_pointer_main <- main. Called from uninit_pointer.c:442.
+Where? File, line, function
+Who? -
+Why? assert \initialized(pp);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:70
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_004 <- uninit_pointer_main <- main. Called from uninit_pointer.c:447.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&p_0);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:89
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_005_func_001 <- uninit_pointer_005 <- uninit_pointer_main <- main. Called from uninit_pointer.c:94.
+Where? File, line, function
+Who? -
+Why? assert \initialized(pbuf_0 + 1);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:103
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_006_func_001 <- uninit_pointer_006 <- uninit_pointer_main <- main. Called from uninit_pointer.c:110.
+Where? File, line, function
+Who? -
+Why? assert \initialized(pp);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:130
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_007 <- uninit_pointer_main <- main. Called from uninit_pointer.c:462.
+Where? File, line, function
+Who? -
+Why? assert \initialized(pbuf_0[i]);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:151
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_008_func_001 <- uninit_pointer_008 <- uninit_pointer_main <- main. Called from uninit_pointer.c:158.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&ret_0);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:186
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_009 <- uninit_pointer_main <- main. Called from uninit_pointer.c:472.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&buf);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:199
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_010_func_001 <- uninit_pointer_010 <- uninit_pointer_main <- main. Called from uninit_pointer.c:204.
+Where? File, line, function
+Who? -
+Why? assert \initialized(cptr);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:230
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_pointer_011 <- uninit_pointer_main <- main. Called from uninit_pointer.c:482.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(ptr + i);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:253
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_012 <- uninit_pointer_main <- main. Called from uninit_pointer.c:487.
+Where? File, line, function
+Who? -
+Why? assert \initialized(fptr + i);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:253
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_012 <- uninit_pointer_main <- main. Called from uninit_pointer.c:487.
+Where? File, line, function
+Who? -
+Why? assert \initialized(fptr + i);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:286
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_pointer_013 <- uninit_pointer_main <- main. Called from uninit_pointer.c:492.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(ptr + i);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:286
+framac (correct):
+What? Out of bounds read.
+When? Function uninit_pointer_013 <- uninit_pointer_main <- main. Called from uninit_pointer.c:492.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(*(ptr + i) + j);
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:367
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_015 <- uninit_pointer_main <- main. Called from uninit_pointer.c:502.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&ptr);
+How to fix? -
+
+01.w_Defects/uninit_var.c:22
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_001 <- uninit_var_main <- main. Called from uninit_var.c:309.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&a_4);
+How to fix? -
+
+01.w_Defects/uninit_var.c:33
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_002 <- uninit_var_main <- main. Called from uninit_var.c:314.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&buf[3]);
+How to fix? -
+
+01.w_Defects/uninit_var.c:44
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_003 <- uninit_var_main <- main. Called from uninit_var.c:319.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&buf[1][1]);
+How to fix? -
+
+01.w_Defects/uninit_var.c:62
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_004 <- uninit_var_main <- main. Called from uninit_var.c:324.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&dvar);
+How to fix? -
+
+01.w_Defects/uninit_var.c:74
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_005_func_001 <- uninit_var_005 <- uninit_var_main <- main. Called from uninit_var.c:80.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&ret_0);
+How to fix? -
+
+01.w_Defects/uninit_var.c:91
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_006 <- uninit_var_main <- main. Called from uninit_var.c:334.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&a_4);
+How to fix? -
+
+01.w_Defects/uninit_var.c:110
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_007 <- uninit_var_main <- main. Called from uninit_var.c:339.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&s_0.uninit);
+How to fix? -
+
+01.w_Defects/uninit_var.c:130
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_008 <- uninit_var_main <- main. Called from uninit_var.c:344.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&data);
+How to fix? -
+
+01.w_Defects/uninit_var.c:160
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_010_func_001 <- uninit_var_010 <- uninit_var_main <- main. Called from uninit_var.c:165.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&ret_0[i][j]);
+How to fix? -
+
+01.w_Defects/uninit_var.c:177
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_011_func_001 <- uninit_var_011 <- uninit_var_main <- main. Called from uninit_var.c:186.
+Where? File, line, function
+Who? -
+Why? assert \initialized(arr1_0 + 1);
+How to fix? -
+
+01.w_Defects/uninit_var.c:243
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_013_func_001 <- uninit_var_013 <- uninit_var_main <- main. Called from uninit_var.c:249.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&val);
+How to fix? -
+
+01.w_Defects/uninit_var.c:296
+framac (correct):
+What? Accessing uninitialized left-value.
+When? Function uninit_var_015 <- uninit_var_main <- main. Called from uninit_var.c:379.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&a_4[1]);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:52
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_001 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:611.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:73
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_002 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:616.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:93
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_003 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:621.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:113
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_004 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:626.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:140
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_005 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:631.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:160
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_006 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:636.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:181
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_007 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:641.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:200
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_008 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:646.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func_glb);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:224
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_009 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:651.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:250
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_010 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:656.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:297
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_011 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:661.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:353
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_012 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:666.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:380
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_013 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:671.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:422
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_014 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:676.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:456
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_015 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:681.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(fptr);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:490
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_016 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:686.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(func);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:527
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_017_func_002 <- wrong_arguments_func_pointer_017 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:538.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(wrong_arguments_func_pointer_017_func_gbl);
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:578
+framac (correct):
+What? Pointer to function with incompatible type.
+When? Function wrong_arguments_func_pointer_018_func_004 <- wrong_arguments_func_pointer_018 <- wrong_arguments_func_pointer_main <- main. Called from wrong_arguments_func_pointer.c:599.
+Where? File, line, function
+Who? -
+Why? assert \valid_function(wrong_arguments_func_pointer_018_fptr1_gbl);
+How to fix? -
+
+01.w_Defects/zero_division.c:21
+framac (correct):
+What? Division by zero.
+When? Function zero_division_001 <- zero_division_main <- main. Called from zero_division.c:262.
+Where? File, line, function
+Who? -
+Why? assert 0 ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:32
+framac (correct):
+What? Division by zero.
+When? Function zero_division_002 <- zero_division_main <- main. Called from zero_division.c:267.
+Where? File, line, function
+Who? -
+Why? assert 0 ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:45
+framac (correct):
+What? Division by zero.
+When? Function zero_division_003 <- zero_division_main <- main. Called from zero_division.c:272.
+Where? File, line, function
+Who? -
+Why? assert 0 ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:57
+framac (correct):
+What? Division by zero.
+When? Function zero_division_004_func_001 <- zero_division_004 <- zero_division_main <- main. Called from zero_division.c:63.
+Where? File, line, function
+Who? -
+Why? assert zero_division_004_divisor_gbl ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:76
+framac (correct):
+What? Division by zero.
+When? Function zero_division_005 <- zero_division_main <- main. Called from zero_division.c:282.
+Where? File, line, function
+Who? -
+Why? assert divisors[2] ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:91
+framac (correct):
+What? Division by zero.
+When? Function zero_division_006 <- zero_division_main <- main. Called from zero_division.c:287.
+Where? File, line, function
+Who? -
+Why? assert *p_0 ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:116
+framac (correct):
+What? Division by zero.
+When? Function zero_division_007 <- zero_division_main <- main. Called from zero_division.c:292.
+Where? File, line, function
+Who? -
+Why? assert zero_division_007_s_gbl.divisor ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:127
+framac (correct):
+What? Non-finite double value.
+When? Function zero_division_008 <- zero_division_main <- main. Called from zero_division.c:297.
+Where? File, line, function
+Who? -
+Why? assert \is_finite((double)((double)dividend / 0.0));
+How to fix? -
+
+01.w_Defects/zero_division.c:139
+framac (correct):
+What? Division by zero.
+When? Function zero_division_009 <- zero_division_main <- main. Called from zero_division.c:302.
+Where? File, line, function
+Who? -
+Why? assert divisor ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:152
+framac (correct):
+What? Division by zero.
+When? Function zero_division_010 <- zero_division_main <- main. Called from zero_division.c:307.
+Where? File, line, function
+Who? -
+Why? assert divisor ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:164
+framac (correct):
+What? Division by zero.
+When? Function zero_division_011 <- zero_division_main <- main. Called from zero_division.c:312.
+Where? File, line, function
+Who? -
+Why? assert (int)((int)(2 * divisor) - 4) ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:176
+framac (correct):
+What? Division by zero.
+When? Function zero_division_012 <- zero_division_main <- main. Called from zero_division.c:317.
+Where? File, line, function
+Who? -
+Why? assert (int)((int)(divisor * divisor) - 4) ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:193
+framac (correct):
+What? Division by zero.
+When? Function zero_division_013 <- zero_division_main <- main. Called from zero_division.c:322.
+Where? File, line, function
+Who? -
+Why? assert tmp ≢ 0;                   (tmp from zero_division_013_func_001())
+How to fix? -
+
+01.w_Defects/zero_division.c:204
+framac (correct):
+What? Division by zero.
+When? Function zero_division_014_func_001 <- zero_division_014 <- zero_division_main <- main. Called from zero_division.c:209.
+Where? File, line, function
+Who? -
+Why? assert divisor ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:223
+framac (correct):
+What? Division by zero.
+When? Function zero_division_015 <- zero_division_main <- main. Called from zero_division.c:332.
+Where? File, line, function
+Who? -
+Why? assert divisor1 ≢ 0;
+How to fix? -
+
+01.w_Defects/zero_division.c:250
+framac (correct):
+What? Division by zero.
+When? Function zero_division_016 <- zero_division_main <- main. Called from zero_division.c:337.
+Where? File, line, function
+Who? -
+Why? assert divisor2 ≢ 0;
+How to fix? -
+
+02.wo_Defects/bit_shift.c:119
+framac (false):
+What? Signed overflow.
+When? Function bit_shift_009 <- bit_shift_main <- main. Called from bit_shift.c:288.
+Where? File, line, function
+Who? -
+Why? assert a_4 << shift ≤ 2147483647;
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:25
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_001 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:620.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:40
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_002 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:625.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:60
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_003 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:630.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf_2 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:75
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_004 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:635.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:92
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_005 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:640.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:110
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_006 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:645.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:128
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_007 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:650.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:150
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_008 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:655.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:150
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_008 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:655.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(buf_2 + i) + j);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:172
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_009 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:660.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(pbuf_0[i]) + j);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:196
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_010 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:665.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(sbuf + 4)->a);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:216
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_011 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:670.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(s_0 + 4)->buf[4]);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:231
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_012 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:675.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index_0);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:246
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_013 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:680.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index_0);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:261
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_014 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:685.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)((int)(2 * index_0) + 1));
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:276
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_015 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:690.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)((int)(index_0 * index_0) + 1));
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:296
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_016 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:695.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + tmp_0); (tmp_0 from dynamic_buffer_overrun_016_func_001())
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:310
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_017_func_001 <- dynamic_buffer_overrun_017 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:317.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index_0);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:331
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_018 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:705.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + indexes[index_0]);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:348
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_019 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:710.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index1);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:367
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_020 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:715.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index2);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:385
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_021 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:720.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:401
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_022 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:725.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:420
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_023 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:730.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:433
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_024_func_001 <- dynamic_buffer_overrun_024 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:440.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + 4);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:460
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_025 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:740.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:478
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_026 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:745.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 0);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:494
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_027 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:750.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + 1);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:512
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_028 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:755.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf1_0 + 2);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:512
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_028 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:755.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf2_0 + *(buf1_0 + 2));
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:530
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_029 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:760.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)(i - 1));
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:557
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_overrun_030 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:765.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(doubleptr + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:557
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_030 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:765.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr + i) + j);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:578
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_031 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:770.
+Where? File, line, function
+Who? -
+Why? assert \valid(ptr1 + i);
+How to fix? -
+
+02.wo_Defects/buffer_overrun_dynamic.c:606
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_overrun_032 <- dynamic_buffer_overrun_main <- main. Called from buffer_overrun_dynamic.c:775.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(ptr_s + i)->arri[i]);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:26
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_001 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:795.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:41
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_002 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:800.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:61
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_003 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:805.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf_2 + 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:76
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_004 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:810.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:93
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_005 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:815.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:111
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_006 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:820.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:129
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_007 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:825.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:151
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_008 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:830.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:151
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_008 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:830.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(buf_2 + i) + j);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:173
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_009 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:835.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(pbuf_0[i]) + j);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:197
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_010 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:840.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(sbuf + 0)->a);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:217
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_011 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:845.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(s_0 + 0)->buf[4]);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:232
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_012 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:850.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - index_0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:248
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_013 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:855.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)((int)((int)(-2) * index_0) + 6));
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:263
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_014 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:860.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)((int)(index_0 * index_0) - 4));
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:278
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_015 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:865.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + (int)((int)(index_0 * index_0) - 4));
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:298
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_016 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:870.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + tmp_0); (tmp_0 from dynamic_buffer_underrun_016_func_001())
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:312
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_017_func_001 <- dynamic_buffer_underrun_017 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:319.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - index_0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:333
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_018 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:880.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - indexes[index_0]);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:350
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_019 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:885.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index1);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:369
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_020 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:890.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + index2);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:387
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_021 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:895.
+Where? File, line, function
+Who? -
+Why? assert \valid(p2 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:403
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_022 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:900.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:422
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_023 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:905.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:434
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_024_func_001 <- dynamic_buffer_underrun_024 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:442.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:461
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_025 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:915.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:479
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_026 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:920.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:495
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_027 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:925.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0 - 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:514
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_028 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:930.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(buf1_0 + 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:514
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_028 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:930.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf2_0 - *(buf1_0 + 0));
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:528
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_029 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:935.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + 0);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:555
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_030 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:940.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(doubleptr + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:555
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_030 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:940.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr + i) + j);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:602
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_032 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:950.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(ptr_s + i)->arr[i]);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:648
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_034 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:960.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(srcbuf + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:679
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_035 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:965.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(doubleptr + 0) + loc2);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:701
+framac (false):
+What? Out of bounds read.
+When? Function dynamic_buffer_underrun_036 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:970.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(newTest + 10);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:721
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_037 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:975.
+Where? File, line, function
+Who? -
+Why? assert \valid(doubleptr + i);
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:751
+framac (false):
+What? Out of bounds write.
+When? Function dynamic_buffer_underrun_038 <- dynamic_buffer_underrun_main <- main. Called from buffer_underrun_dynamic.c:980.
+Where? File, line, function
+Who? -
+Why? assert \valid(&(new_s + loc)->arr[i]);
+How to fix? -
+
+02.wo_Defects/littlemem_st.c:36
+framac (false):
+What? Accessing uninitialized left-value.
+When? Function littlemem_st_001 <- littlemem_st_main <- main. Called from littlemem_st.c:362.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&p_0->c);
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:42
+framac (false):
+What? Out of bounds write.
+When? Function memory_allocation_failure_001 <- memory_allocation_failure_main <- main. Called from memory_allocation_failure.c:742.
+Where? File, line, function
+Who? -
+Why? assert \valid(buf_2 + 1);
+How to fix? -
+
+02.wo_Defects/null_pointer.c:308
+framac (false):
+What? Out of bounds read.
+When? Function null_pointer_016 <- null_pointer_main <- main. Called from null_pointer.c:453.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(null_pointer_016_gbl_doubleptr + i);
+How to fix? -
+
+02.wo_Defects/null_pointer.c:308
+framac (false):
+What? Out of bounds write.
+When? Function null_pointer_016 <- null_pointer_main <- main. Called from null_pointer.c:453.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(null_pointer_016_gbl_doubleptr + i) + j);
+How to fix? -
+
+02.wo_Defects/null_pointer.c:355
+framac (false):
+What? Out of bounds read.
+When? Function null_pointer_017 <- null_pointer_main <- main. Called from null_pointer.c:458.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(null_pointer_017dst + i);
+How to fix? -
+
+02.wo_Defects/overrun_st.c:621
+framac (false):
+What? Out of bounds write.
+When? Function overrun_st_044 <- overrun_st_main <- main. Called from overrun_st.c:991.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+02.wo_Defects/ow_memcpy.c:41
+framac (false):
+What? Out of bounds write.
+When? Function ow_memcpy_002_func_001 <- ow_memcpy_002 <- ow_memcpy_main <- main. Called from ow_memcpy.c:50.
+Where? File, line, function
+Who? -
+Why? assert \valid(q);
+How to fix? -
+
+02.wo_Defects/ow_memcpy.c:41
+framac (false):
+What? Out of bounds read.
+When? Function ow_memcpy_002_func_001 <- ow_memcpy_002 <- ow_memcpy_main <- main. Called from ow_memcpy.c:50.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(p_0);
+How to fix? -
+
+02.wo_Defects/pow_related_errors.c:152
+framac (false):
+What? Non-finite double value.
+When? Function pow_related_errors_007 <- pow_related_errors_main <- main. Called from pow_related_errors.c:525.
+Where? File, line, function
+Who? -
+Why? assert \is_finite(ptr_newarr->arr[0]);
+How to fix? -
+
+02.wo_Defects/underrun_st.c:115
+framac (false):
+What? Out of bounds write.
+When? Function underrun_st_008 <- underrun_st_main <- main. Called from underrun_st.c:244.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+02.wo_Defects/underrun_st.c:146
+framac (false):
+What? Out of bounds write.
+When? Function underrun_st_010 <- underrun_st_main <- main. Called from underrun_st.c:254.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+02.wo_Defects/underrun_st.c:178
+framac (false):
+What? Out of bounds write.
+When? Function underrun_st_012 <- underrun_st_main <- main. Called from underrun_st.c:264.
+Where? File, line, function
+Who? -
+Why? assert \valid(p_0);
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:39
+framac (false):
+What? Non-finite double value.
+When? Function uninit_memory_access_002 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:489.
+Where? File, line, function
+Who? -
+Why? assert \is_finite(*(a_4 + 1));
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:75
+framac (false):
+What? Out of bounds read.
+When? Function uninit_memory_access_004 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:499.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(*ptr);
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:99
+framac (false):
+What? Accessing uninitialized left-value.
+When? Function uninit_memory_access_005 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:504.
+Where? File, line, function
+Who? -
+Why? assert \initialized(&arr1_0[1][2][3]);
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:260
+framac (false):
+What? Out of bounds read.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:524.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(uninit_memory_access_009_doubleptr_gbl + i);
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:260
+framac (false):
+What? Out of bounds write.
+When? Function uninit_memory_access_009 <- uninit_memory_access_main <- main. Called from uninit_memory_access.c:524.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(uninit_memory_access_009_doubleptr_gbl + i) + j);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:137
+framac (false):
+What? Out of bounds write.
+When? Function uninit_pointer_007 <- uninit_pointer_main <- main. Called from uninit_pointer.c:481.
+Where? File, line, function
+Who? -
+Why? assert \valid(*(pbuf_0[i]) + j);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:242
+framac (false):
+What? Out of bounds read.
+When? Function uninit_pointer_011 <- uninit_pointer_main <- main. Called from uninit_pointer.c:501.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(ptr + i);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:265
+framac (false):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_012 <- uninit_pointer_main <- main. Called from uninit_pointer.c:506.
+Where? File, line, function
+Who? -
+Why? assert \initialized(fptr + i);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:265
+framac (false):
+What? Accessing uninitialized left-value.
+When? Function uninit_pointer_012 <- uninit_pointer_main <- main. Called from uninit_pointer.c:506.
+Where? File, line, function
+Who? -
+Why? assert \initialized(fptr + i);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:298
+framac (false):
+What? Out of bounds read.
+When? Function uninit_pointer_013 <- uninit_pointer_main <- main. Called from uninit_pointer.c:511.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(ptr + i);
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:298
+framac (false):
+What? Out of bounds read.
+When? Function uninit_pointer_013 <- uninit_pointer_main <- main. Called from uninit_pointer.c:511.
+Where? File, line, function
+Who? -
+Why? assert \valid_read(*(ptr + i) + j);
+How to fix? -
+
+02.wo_Defects/zero_division.c:251
+framac (false):
+What? Division by zero.
+When? Function zero_division_016 <- zero_division_main <- main. Called from zero_division.c:338.
+Where? File, line, function
+Who? -
+Why? assert divisor2 ≢ 0;
+How to fix? -
+
+02.wo_Defects/zero_division.c:251
+framac (false):
+What? Pointer comparison.
+When? Function zero_division_016 <- zero_division_main <- main. Called from zero_division.c:338.
+Where? File, line, function
+Who? -
+Why? assert \pointer_comparable((void *)0, (void *)divisor2);
+How to fix? -
+
+02.wo_Defects/zero_division.c:251
+framac (false):
+What? Signed overflow.
+When? Function zero_division_016 <- zero_division_main <- main. Called from zero_division.c:338.
+Where? File, line, function
+Who? -
+Why? assert -2147483648 ≤ dividend / divisor2;
+How to fix? -
+
+02.wo_Defects/zero_division.c:251
+framac (false):
+What? Signed overflow.
+When? Function zero_division_016 <- zero_division_main <- main. Called from zero_division.c:338.
+Where? File, line, function
+Who? -
+Why? assert dividend / divisor2 ≤ 2147483647;
+How to fix? -
+
