@@ -1,0 +1,7479 @@
+01.w_Defects/buffer_underrun_dynamic.c:247
+resharper:
+What? Local variable 'index' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:699
+resharper:
+What? Local variable 'c' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:700
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/data_lost.c:133
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/data_overflow.c:124
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/data_overflow.c:140
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/dead_code.c:22
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/dead_code.c:131
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/dead_code.c:149
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/double_free.c:218
+resharper:
+What? Local variable 'a' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/endless_loop.c:26
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/endless_loop.c:59
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/endless_loop.c:169
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_nondynamic_allocated_memory.c:97
+resharper:
+What? Local variable 'ptr1' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:98
+resharper:
+What? Local variable 'ptr2' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:99
+resharper:
+What? Local variable 'ptr3' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:24
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:70
+resharper:
+What? Local variable 'j' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:195
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:228
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:258
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:305
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:327
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:386
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:386
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:410
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:410
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:416
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:419
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:420
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:440
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:443
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:445
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:445
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:445
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:445
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:446
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:446
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:446
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:446
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:449
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:452
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:455
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:460
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:478
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:489
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:491
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/free_null_pointer.c:530
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:530
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:531
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:531
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:532
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_null_pointer.c:532
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/function_return_value_unchecked.c:30
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:49
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:71
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:123
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:129
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:135
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:174
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:186
+resharper:
+What? Local variable 'arr' is used only in unevaluated context
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/function_return_value_unchecked.c:187
+resharper:
+What? Expression of type 'float(*)[]' is implicitly converted to incompatible pointer type 'float(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/function_return_value_unchecked.c:246
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:264
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:286
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:291
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:296
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:301
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:318
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:324
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:384
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:393
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/function_return_value_unchecked.c:399
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:404
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/function_return_value_unchecked.c:440
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:33
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:34
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:40
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:42
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:52
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:52
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:71
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:71
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:76
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:81
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:92
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:94
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:106
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:120
+resharper:
+What? Local variable 'str' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:123
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:135
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:183
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:195
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:256
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:265
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:276
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:276
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:283
+resharper:
+What? Local variable 'a' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:284
+resharper:
+What? Expression of type 'char**(*)(char[])' is implicitly converted to incompatible pointer type 'char**(*)(char*)'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:285
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:307
+resharper:
+What? Expression of type 'float**(*)(float[][3], int)' is implicitly converted to incompatible pointer type 'float**(*)(float(*)[3], int)'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:330
+resharper:
+What? Local variable 'flag' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:342
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:342
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:348
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:353
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:355
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:364
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:365
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:372
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:375
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:386
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:388
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:400
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:437
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:438
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:438
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:454
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:495
+resharper:
+What? Local variable 'flag' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:498
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:531
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:537
+resharper:
+What? Local variable 'f' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:538
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:545
+resharper:
+What? Local variable 'flag' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:548
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:560
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:560
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:579
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:579
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:584
+resharper:
+What? Local variable 'st' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:587
+resharper:
+What? Redundant empty statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:592
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:599
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/func_pointer.c:601
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:601
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/func_pointer.c:605
+resharper:
+What? Declaration of 'st1' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/improper_termination_of_block.c:38
+resharper:
+What? Possibly erroneous empty-statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/improper_termination_of_block.c:52
+resharper:
+What? Possibly erroneous empty-statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/improper_termination_of_block.c:67
+resharper:
+What? Possibly erroneous empty-statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/insign_code.c:23
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_extern_1.c:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:30
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:35
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:37
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:41
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:45
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:45
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:64
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:65
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:69
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:72
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:85
+resharper:
+What? Local variable 'a' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:110
+resharper:
+What? Local variable 'c' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:147
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:147
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:256
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:400
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:410
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:422
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:445
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/invalid_memory_access.c:499
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:501
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:530
+resharper:
+What? Local variable 'str' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/invalid_memory_access.c:531
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/littlemem_st.c:27
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/littlemem_st.c:36
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/littlemem_st.c:303
+resharper:
+What? Parameter 'flag' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/littlemem_st.c:335
+resharper:
+What? Parameter 'flag' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:94
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:227
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:255
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:276
+resharper:
+What? Parameter 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:281
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:281
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:292
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:292
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:326
+resharper:
+What? Parameter 'devno' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:374
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:390
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:411
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:438
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:441
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:442
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:442
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:442
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:442
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:447
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:460
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:492
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:492
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:492
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:494
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:497
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:499
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:503
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:504
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:509
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:510
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:511
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:513
+resharper:
+What? Local variable 'a' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:531
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:534
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:534
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:572
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:572
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:572
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:576
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:583
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:583
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:593
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:599
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:605
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:606
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:611
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:612
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:615
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:618
+resharper:
+What? Local variable 'b' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_allocation_failure.c:679
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_allocation_failure.c:692
+resharper:
+What? Redundant empty statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:95
+resharper:
+What? Possibly erroneous empty-statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:117
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:148
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:210
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:210
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:226
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:226
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:232
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:243
+resharper:
+What? Local variable 'p1' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:243
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:244
+resharper:
+What? Local variable 'p2' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:263
+resharper:
+What? Local variable 'buf' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:272
+resharper:
+What? Declaration of 'buf' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:272
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:274
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:274
+resharper:
+What? Local variable 'un' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:306
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:306
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:346
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:370
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:370
+resharper:
+What? Local variable 'fptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:379
+resharper:
+What? Local variable 'fptr1' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/memory_leak.c:380
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:465
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/memory_leak.c:521
+resharper:
+What? Redundant empty statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/not_return.c:16
+resharper:
+What? Not all control paths return a value
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/not_return.c:35
+resharper:
+What? Not all control paths return a value
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/not_return.c:61
+resharper:
+What? Not all control paths return a value
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/not_return.c:87
+resharper:
+What? Not all control paths return a value
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/not_return.c:96
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/overrun_st.c:42
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:43
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/overrun_st.c:124
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:317
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:319
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/overrun_st.c:604
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:715
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:737
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:747
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/pow_related_errors.c:67
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/pow_related_errors.c:89
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/pow_related_errors.c:111
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/ptr_subtraction.c:34
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/ptr_subtraction.c:35
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/sign_conv.c:122
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/sign_conv.c:138
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/stubs.c:5
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/st_underrun.c:136
+resharper:
+What? Local variable 's2' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/st_underrun.c:137
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/st_underrun.c:167
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/st_underrun.c:192
+resharper:
+What? Local variable 'c' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/st_underrun.c:195
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/st_underrun.c:226
+resharper:
+What? Local variable 'c' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/st_underrun.c:229
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/underrun_st.c:20
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:21
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/underrun_st.c:30
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:40
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:53
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:55
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/underrun_st.c:89
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:53
+resharper:
+What? Local variable 'str2' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:54
+resharper:
+What? Local variable 'str2' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:65
+resharper:
+What? Local variable 'ptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:97
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:126
+resharper:
+What? Local variable 'str2' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:166
+resharper:
+What? Local variable 'temp' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:168
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:197
+resharper:
+What? Local variable 's' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:318
+resharper:
+What? Local variable 'str' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:413
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:418
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:420
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_memory_access.c:433
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:450
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:26
+resharper:
+What? Local variable 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:28
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:29
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:29
+resharper:
+What? Local variable 'p' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:38
+resharper:
+What? Local variable 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:40
+resharper:
+What? Local variable 'p' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:51
+resharper:
+What? Local variable 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:52
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:54
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:61
+resharper:
+What? Parameter 'p' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:63
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:64
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:68
+resharper:
+What? Local variable 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:70
+resharper:
+What? Local variable 'p' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:80
+resharper:
+What? Local variable 'buf2' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:88
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:89
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:108
+resharper:
+What? Local variable 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:151
+resharper:
+What? Local variable 'ret' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:186
+resharper:
+What? Local variable 'buf' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:198
+resharper:
+What? Local variable 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:199
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:214
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:292
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:340
+resharper:
+What? Local variable 'r' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:344
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:367
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_pointer.c:376
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:21
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:22
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:22
+resharper:
+What? Local variable 'a' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:32
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:33
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:43
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:44
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:55
+resharper:
+What? Local variable 'dvar1' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:55
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:57
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:58
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:59
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:60
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:62
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:62
+resharper:
+What? Local variable 'dvar' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:73
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:74
+resharper:
+What? Local variable 'ret' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:79
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:80
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:91
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:91
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:91
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:91
+resharper:
+What? Local variable 'a' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:91
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:107
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:110
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:130
+resharper:
+What? Local variable 'data' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:184
+resharper:
+What? Local variable 'p' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:186
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:186
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:186
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:186
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:186
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:201
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:201
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:222
+resharper:
+What? Local variable 'r' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:228
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:243
+resharper:
+What? Local variable 'val' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:248
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:249
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:265
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:265
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:266
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:266
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:267
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:267
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:273
+resharper:
+What? Local variable 'r' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:276
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:294
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:296
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/uninit_var.c:297
+resharper:
+What? Redundant empty declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/unused_var.c:21
+resharper:
+What? Local variable 'unuse' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/unused_var.c:23
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/unused_var.c:41
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/unused_var.c:77
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/unused_var.c:114
+resharper:
+What? Local variable 'unuse' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:40
+resharper:
+What? Parameter 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:43
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:43
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:50
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:52
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:61
+resharper:
+What? Parameter 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:64
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:64
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:71
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:73
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:84
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:84
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:91
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:93
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:104
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:104
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:110
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:113
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:126
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:126
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:130
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:130
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:138
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:140
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:158
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:160
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:173
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:173
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:173
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:173
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:179
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:181
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:198
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:200
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:214
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:214
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:221
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:224
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:241
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:241
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:250
+resharper:
+What? Local variable 'st' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:270
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:270
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:276
+resharper:
+What? Local variable 'temp' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:277
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:281
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:323
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:323
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:330
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:331
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:331
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:336
+resharper:
+What? Local variable 'temp' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:383
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:395
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:420
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:422
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:480
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:480
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:487
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:490
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:498
+resharper:
+What? Parameter 'flag' is always rewritten in function body before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:501
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:521
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:527
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:528
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:535
+resharper:
+What? Local variable 'flag' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:538
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/wrong_arguments_func_pointer.c:551
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:551
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:592
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:592
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:597
+resharper:
+What? Declaration of 'st' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/wrong_arguments_func_pointer.c:597
+resharper:
+What? Declaration of 'st1' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:20
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:21
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:31
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:33
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:44
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:45
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:75
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:76
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:89
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:91
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:114
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:116
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:126
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:127
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:138
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:139
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:150
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:152
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:163
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:164
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:175
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:176
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:192
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:193
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:203
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:204
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:221
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:223
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+01.w_Defects/zero_division.c:245
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:250
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+include/HeaderFile.h:9
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:10
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:12
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:13
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:14
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:18
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:9
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:10
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:12
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:13
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:700
+resharper:
+What? Local variable 'c' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/buffer_underrun_dynamic.c:701
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/data_lost.c:136
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/data_overflow.c:125
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/data_overflow.c:141
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/dead_code.c:129
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/double_free.c:101
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/double_free.c:204
+resharper:
+What? Local variable 'a' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:22
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:32
+resharper:
+What? Redundant empty statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:61
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:81
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:81
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:114
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:27
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:57
+resharper:
+What? Local variable 'buf' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:67
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:79
+resharper:
+What? Local variable 'j' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:204
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:235
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:363
+resharper:
+What? Local variable 'flag' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:386
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:386
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:414
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:414
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:424
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:445
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:448
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:454
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:457
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:460
+resharper:
+What? Redundant argument in conditional expression
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:465
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:483
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:494
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:496
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/free_null_pointer.c:535
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:535
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:536
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:536
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:537
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/free_null_pointer.c:537
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/function_return_value_unchecked.c:30
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:50
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:69
+resharper:
+What? Local variable 'a' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/function_return_value_unchecked.c:72
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:124
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:130
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:136
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:174
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:186
+resharper:
+What? Local variable 'arr' is used only in unevaluated context
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/function_return_value_unchecked.c:187
+resharper:
+What? Expression of type 'float(*)[]' is implicitly converted to incompatible pointer type 'float(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/function_return_value_unchecked.c:246
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:264
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:286
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:291
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:296
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:301
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:318
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:324
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/function_return_value_unchecked.c:451
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:56
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:56
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:76
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:76
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:98
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:100
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:115
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:175
+resharper:
+What? Local variable 'doubleptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:192
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:287
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:287
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:340
+resharper:
+What? Local variable 'flag' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:353
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:353
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:369
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:401
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:403
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:419
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:460
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:463
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:463
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:512
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:558
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:564
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/func_pointer.c:587
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:587
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:626
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:626
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/func_pointer.c:631
+resharper:
+What? Declaration of 'st1' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/invalid_extern_1.c:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/invalid_memory_access.c:46
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:66
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:67
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:71
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:72
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:78
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:80
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:81
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:86
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:107
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:123
+resharper:
+What? Local variable 'buf' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/invalid_memory_access.c:132
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:157
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:217
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:233
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:265
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/invalid_memory_access.c:453
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/invalid_memory_access.c:506
+resharper:
+What? Local variable 'i' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/invalid_memory_access.c:508
+resharper:
+What? Local variable 'str_rev' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/littlemem_st.c:27
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/littlemem_st.c:36
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/littlemem_st.c:303
+resharper:
+What? Parameter 'flag' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/littlemem_st.c:335
+resharper:
+What? Parameter 'flag' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:96
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:235
+resharper:
+What? Redundant 'else' keyword
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:264
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:286
+resharper:
+What? Parameter 'buf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:291
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:291
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:302
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:302
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:336
+resharper:
+What? Parameter 'devno' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:383
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:399
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:420
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:447
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:450
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:451
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:456
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:469
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:548
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:551
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:551
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:589
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:589
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:589
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:593
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:600
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:600
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:610
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:616
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:622
+resharper:
+What? Local variable 'ptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:623
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:628
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:629
+resharper:
+What? Local variable 'dptr' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:632
+resharper:
+What? Local variable 'ptr1' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:635
+resharper:
+What? Local variable 'b' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_allocation_failure.c:696
+resharper:
+What? Local variable 'ret' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_allocation_failure.c:709
+resharper:
+What? Redundant empty statement
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:212
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:218
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_leak.c:229
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:235
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_leak.c:246
+resharper:
+What? Local variable 'p1' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:247
+resharper:
+What? Local variable 'p2' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:269
+resharper:
+What? Local variable 'buf' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:276
+resharper:
+What? Declaration of 'buf' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:279
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/memory_leak.c:311
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:352
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:375
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:375
+resharper:
+What? Local variable 'fptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:384
+resharper:
+What? Declaration of 'fptr' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/memory_leak.c:472
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/overrun_st.c:124
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/overrun_st.c:596
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/overrun_st.c:726
+resharper:
+What? Local variable 'pbuf' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/pow_related_errors.c:65
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/pow_related_errors.c:87
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/pow_related_errors.c:108
+resharper:
+What? Local variable 'ans' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/sign_conv.c:122
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/sign_conv.c:138
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_memory_access.c:66
+resharper:
+What? Local variable 'ptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:99
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_memory_access.c:205
+resharper:
+What? Local variable 's' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:286
+resharper:
+What? Parameter 'devno' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:385
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_memory_access.c:400
+resharper:
+What? Local variable 'flag' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:437
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_memory_access.c:454
+resharper:
+What? Expression of type 'int(*)[]' is implicitly converted to incompatible pointer type 'int(*)[4]'
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_memory_access.c:471
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_pointer.c:50
+resharper:
+What? Local variable 'pp' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:51
+resharper:
+What? Local variable 'p' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:196
+resharper:
+What? Local variable 'buf' might not be initialized
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_pointer.c:208
+resharper:
+What? Local variable 'buf' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:225
+resharper:
+What? Local variable 'ptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:226
+resharper:
+What? Some control paths may leak this resource acquisition
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:255
+resharper:
+What? Local variable 'fptr' is reassigned in all paths before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_pointer.c:304
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_var.c:62
+resharper:
+What? Local variable 'dvar1' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:65
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/uninit_var.c:97
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:99
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:99
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:99
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:99
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:200
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:200
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:200
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:200
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:216
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:216
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:284
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:284
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:285
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:285
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:286
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/uninit_var.c:286
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:40
+resharper:
+What? Parameter 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:43
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:43
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:50
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:52
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:61
+resharper:
+What? Parameter 'a' is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:64
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:64
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:71
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:73
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:84
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:84
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:91
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:93
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:104
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:104
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:111
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:113
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:125
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:125
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:129
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:129
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:136
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:138
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:155
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:157
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:169
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:169
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:169
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:169
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:175
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:177
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:194
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:196
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:209
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:209
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:220
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:223
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:242
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:242
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:272
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:272
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:278
+resharper:
+What? Local variable 'temp' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:283
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:321
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:321
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:329
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:329
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:417
+resharper:
+What? Local variable 'a' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:419
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:476
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:476
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:483
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:486
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:494
+resharper:
+What? Parameter 'flag' is always rewritten in function body before being read
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:497
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:518
+resharper:
+What? Unreachable code
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:524
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:525
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:532
+resharper:
+What? Local variable 'flag' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:535
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/wrong_arguments_func_pointer.c:547
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:547
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:587
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:587
+resharper:
+What? Redundant parentheses
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:592
+resharper:
+What? Declaration of 'st' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/wrong_arguments_func_pointer.c:592
+resharper:
+What? Declaration of 'st1' hides previous local declaration
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:20
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:21
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:31
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:33
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:43
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:44
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:73
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:74
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:87
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:89
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:112
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:114
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:124
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:125
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:136
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:137
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:148
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:152
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:164
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:165
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:176
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:177
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:193
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:194
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:204
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:205
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:222
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:224
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+02.wo_Defects/zero_division.c:246
+resharper:
+What? Local variable 'ret' is only assigned but never accessed
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/zero_division.c:251
+resharper:
+What? Assigned value is never used
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? Solution provided.
+
+include/HeaderFile.h:9
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:10
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:12
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:13
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:14
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.h:18
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:9
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:10
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:11
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:12
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+include/HeaderFile.hpp:13
+resharper:
+What? Possibly unused #include directive
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+

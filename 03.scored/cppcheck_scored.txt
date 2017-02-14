@@ -1,0 +1,990 @@
+01.w_Defects/bit_shift.c:68
+cppcheck (correct):
+What?  Shifting by a negative value is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:92
+cppcheck (correct):
+What?  Shifting by a negative value is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:20
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:44
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:80
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:105
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:132
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:145
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:174
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:207
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/bit_shift.c:224
+cppcheck (correct):
+What?  Shifting 32-bit value by 32 bits is undefined behaviour
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:332
+cppcheck (correct):
+What?  Array 'indexes[4]' accessed at index 4, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_overrun_dynamic.c:606
+cppcheck (correct):
+What?  Array 'ptr_s[i].arr[10]' accessed at index 10, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:177
+cppcheck (correct):
+What?  Array index -3 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:531
+cppcheck (correct):
+What?  Array 'buf[1]' accessed at index -1, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/buffer_underrun_dynamic.c:700
+cppcheck (correct):
+What?  Array 'newTest[10]' accessed at index -10, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:47
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+1'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:164
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+128'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:176
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max*2'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:189
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+d'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:215
+cppcheck (correct):
+What?  Signed integer overflow for expression '(5*max)+3'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:227
+cppcheck (correct):
+What?  Signed integer overflow for expression '(max*max)+88048'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:256
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+d'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:289
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+d1'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_overflow.c:306
+cppcheck (correct):
+What?  Signed integer overflow for expression 'max+d2'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_underflow.c:20
+cppcheck (correct):
+What?  Signed integer overflow for expression 'min-2'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_underflow.c:58
+cppcheck (correct):
+What?  Signed integer overflow for expression 'min-128'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_underflow.c:70
+cppcheck (correct):
+What?  Signed integer overflow for expression 'min*2'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_underflow.c:81
+cppcheck (correct):
+What?  Signed integer overflow for expression '-2147483647-2'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/data_underflow.c:152
+cppcheck (correct):
+What?  Signed integer overflow for expression 'min-d'.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:22
+cppcheck (correct):
+What?  Memory pointed to by 'ptr' is freed twice.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:101
+cppcheck (correct):
+What?  Memory pointed to by 'ptr' is freed twice.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:115
+cppcheck (correct):
+What?  Memory pointed to by 'ptr' is freed twice.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:131
+cppcheck (correct):
+What?  Memory pointed to by 'ptr' is freed twice.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:22
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:43
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:64
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:101
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:115
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:131
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:168
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/double_free.c:187
+cppcheck (correct):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:62
+cppcheck (correct):
+What?  Deallocation of an auto-variable results in undefined behaviour.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:86
+cppcheck (correct):
+What?  Deallocation of an auto-variable results in undefined behaviour.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:103
+cppcheck (correct):
+What?  Deallocation of an auto-variable results in undefined behaviour.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/free_nondynamic_allocated_memory.c:229
+cppcheck (correct):
+What?  Deallocation of an auto-variable results in undefined behaviour.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:21
+cppcheck (correct):
+What?  Null pointer dereference: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:32
+cppcheck (correct):
+What?  Null pointer dereference: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:61
+cppcheck (correct):
+What?  Null pointer dereference: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:92
+cppcheck (correct):
+What?  Null pointer dereference: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:157
+cppcheck (correct):
+What?  Null pointer dereference: p1
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:171
+cppcheck (correct):
+What?  Null pointer dereference: p2
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:178
+cppcheck (correct):
+What?  Null pointer dereference: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:21
+cppcheck (correct):
+What?  Null pointer dereference
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:32
+cppcheck (correct):
+What?  Null pointer dereference
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:131
+cppcheck (correct):
+What?  Null pointer dereference
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:157
+cppcheck (correct):
+What?  Null pointer dereference
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/null_pointer.c:171
+cppcheck (correct):
+What?  Null pointer dereference
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:232
+cppcheck (correct):
+What?  Array 'overrun_st_018_buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:20
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:31
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:43
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:54
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:65
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:76
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:87
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:98
+cppcheck (correct):
+What?  Array 'buf[5][6]' index buf[5][5] out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:109
+cppcheck (correct):
+What?  Array 'buf[5][6][7]' index buf[5][5][6] out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:141
+cppcheck (correct):
+What?  Array 'sbuf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:168
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:193
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:205
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:221
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:263
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:279
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:569
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:705
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:748
+cppcheck (correct):
+What?  Array 'buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/overrun_st.c:157
+cppcheck (correct):
+What?  Array 'overrun_st_012_s_gbl.buf[5]' accessed at index 5, which is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/return_local.c:19
+cppcheck (correct):
+What?  Pointer to local array variable returned.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:124
+cppcheck (correct):
+What?  Array index -1 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:21
+cppcheck (correct):
+What?  Array index -1 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:31
+cppcheck (correct):
+What?  Array index -1 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:42
+cppcheck (correct):
+What?  Array index -1 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/underrun_st.c:93
+cppcheck (correct):
+What?  Array index -1 is out of bounds.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:53
+cppcheck (correct):
+What?  Uninitialized variable: str2
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:126
+cppcheck (correct):
+What?  Uninitialized variable: str2
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_memory_access.c:318
+cppcheck (correct):
+What?  Uninitialized variable: str
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:29
+cppcheck (correct):
+What?  Uninitialized variable: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:40
+cppcheck (correct):
+What?  Uninitialized variable: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:70
+cppcheck (correct):
+What?  Uninitialized variable: p
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:151
+cppcheck (correct):
+What?  Uninitialized variable: ret
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_pointer.c:367
+cppcheck (correct):
+What?  Uninitialized variable: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:74
+cppcheck (correct):
+What?  Uninitialized variable: ret
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:110
+cppcheck (correct):
+What?  Uninitialized struct member: s.uninit
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:130
+cppcheck (correct):
+What?  Uninitialized variable: data
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:141
+cppcheck (correct):
+What?  Uninitialized variable: ret
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:226
+cppcheck (correct):
+What?  Uninitialized struct member: s.uninit
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:243
+cppcheck (correct):
+What?  Uninitialized variable: val
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/uninit_var.c:276
+cppcheck (correct):
+What?  Uninitialized struct member: s.uninit
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:21
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:32
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:45
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:139
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:164
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:176
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:204
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+01.w_Defects/zero_division.c:223
+cppcheck (correct):
+What?  Division by zero.
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/double_free.c:40
+cppcheck (false):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
+02.wo_Defects/double_free.c:155
+cppcheck (false):
+What?  Deallocating a deallocated pointer: ptr
+When? -
+Where? File, line
+Who? -
+Why? -
+How to fix? -
+
