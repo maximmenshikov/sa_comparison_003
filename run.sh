@@ -85,3 +85,6 @@ ${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_clang.txt ${bench}
 ${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_cppcheck.txt ${bench} skipped.txt > 01.non-verified/cppcheck.txt
 ${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_framac.txt ${bench} skipped.txt > 01.non-verified/framac.txt
 ${parsers}/report_cleanup/bin/Debug/report_cleanup.exe parsed_pvs.txt ${bench} skipped.txt > 01.non-verified/pvs.txt
+
+cd ${root}
+./calc.sh
