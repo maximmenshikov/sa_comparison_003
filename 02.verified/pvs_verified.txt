@@ -27,7 +27,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:80
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -36,7 +36,7 @@ How to fix? Check the shift operator '>>'.
 
 01.w_Defects/bit_shift.c:92
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -45,7 +45,7 @@ How to fix? Check the shift operator '>>'.
 
 01.w_Defects/bit_shift.c:105
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -54,7 +54,7 @@ How to fix? Check the shift operator '>>'.
 
 01.w_Defects/bit_shift.c:132
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -63,7 +63,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:145
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -72,7 +72,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:162
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -81,7 +81,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:207
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -90,7 +90,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:224
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
@@ -99,7 +99,7 @@ How to fix? Check the shift operator '<<'.
 
 01.w_Defects/bit_shift.c:235
 pvs (correct):
-What? V610 Undefined behavior. 
+What? V610 Undefined behavior.
 When? -
 Where? File, line.
 Who? -
