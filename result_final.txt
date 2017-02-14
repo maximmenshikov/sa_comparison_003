@@ -1,0 +1,58 @@
+Results
+Clang
+What? 100%
+When? 97.41%
+Where? 100%
+Who? 0%
+Why? 35.78%
+How to fix? 0%
+
+TP: 57.7500000000001 / 607
+FP: 1.55 / 599
+TP/(TP + FP): 97.39%
+
+Cppcheck
+What? 100%
+When? 0%
+Where? 100%
+Who? 0%
+Why? 0%
+How to fix? 0%
+
+TP: 30.0000000000001 / 607
+FP: 0.6 / 599
+TP/(TP + FP): 98.04%
+
+Frama-C
+What? 100%
+When? 100%
+Where? 100%
+Who? 0%
+Why? 99.77%
+How to fix? 0%
+
+TP: 196.100000000001 / 607
+FP: 57.1999999999999 / 599
+TP/(TP + FP): 77.42%
+
+PVS Studio
+What? 100%
+When? 0%
+Where? 100%
+Who? 0%
+Why? 48.46%
+How to fix? 17.15%
+
+TP: 53.67 / 607
+FP: 4.32 / 599
+TP/(TP + FP): 92.55%
+
+Resharper
+Unknown error reports found, report is incomplete
+What? 100%
+When? 0%
+Where? 100%
+Who? 0%
+Why? 0%
+How to fix? 38.27%
+
