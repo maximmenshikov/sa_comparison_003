@@ -3,6 +3,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (73 calls) provided
 Where? File buffer_underrun_dynamic.c, line 647
+Who? -
 Why? The left operand of '==' is a garbage value
 How to fix? -
 
@@ -11,6 +12,7 @@ clang (correct):
 What? Division by zero
 When? Path (36 calls) provided
 Where? File zero_division.c, line 250
+Who? -
 Why? -
 How to fix? -
 
@@ -19,6 +21,7 @@ clang (correct):
 What? Bad free
 When? Path (14 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 103
+Who? -
 Why? Argument to free() is the address of the local variable 'd', which is not memory allocated by malloc()
 How to fix? -
 
@@ -27,6 +30,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (33 calls) provided
 Where? File uninit_pointer.c, line 367
+Who? -
 Why? -
 How to fix? -
 
@@ -35,6 +39,7 @@ clang (correct):
 What? Bad free
 When? Path (4 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 22
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -43,6 +48,7 @@ clang (correct):
 What? Double free
 When? Path (19 calls) provided
 Where? File double_free.c, line 131
+Who? -
 Why? -
 How to fix? -
 
@@ -51,6 +57,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (8 calls) provided
 Where? File null_pointer.c, line 45
+Who? -
 Why? -
 How to fix? -
 
@@ -59,6 +66,7 @@ clang (correct):
 What? Bad free
 When? Path (30 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 229
+Who? -
 Why? Argument to free() is the address of the local variable 'free_nondynamic_allocated_memory_st', which is not memory allocated by malloc()
 How to fix? -
 
@@ -67,6 +75,7 @@ clang (false):
 What? Dereference of null pointer
 When? Path (12 calls) provided
 Where? File uninit_memory_access.c, line 75
+Who? -
 Why? -
 How to fix? -
 
@@ -75,6 +84,7 @@ clang (correct):
 What? Bad free
 When? Path (25 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 170
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -83,6 +93,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (4 calls) provided
 Where? File uninit_var.c, line 22
+Who? -
 Why? -
 How to fix? -
 
@@ -91,6 +102,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (16 calls) provided
 Where? File uninit_var.c, line 91
+Who? -
 Why? -
 How to fix? -
 
@@ -99,6 +111,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (4 calls) provided
 Where? File uninit_pointer.c, line 29
+Who? -
 Why? Dereference of undefined pointer value
 How to fix? -
 
@@ -107,6 +120,7 @@ clang (correct):
 What? Division by zero
 When? Path (31 calls) provided
 Where? File zero_division.c, line 193
+Who? -
 Why? -
 How to fix? -
 
@@ -115,6 +129,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (32 calls) provided
 Where? File uninit_var.c, line 296
+Who? -
 Why? Assigned value is garbage or undefined
 How to fix? -
 
@@ -123,6 +138,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (7 calls) provided
 Where? File uninit_pointer.c, line 40
+Who? -
 Why? Dereference of undefined pointer value
 How to fix? -
 
@@ -131,6 +147,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (18 calls) provided
 Where? File bit_shift.c, line 105
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -139,6 +156,7 @@ clang (correct):
 What? Double free
 When? Path (30 calls) provided
 Where? File double_free.c, line 204
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -147,6 +165,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (8 calls) provided
 Where? File uninit_memory_access.c, line 38
+Who? -
 Why? -
 How to fix? -
 
@@ -155,6 +174,7 @@ clang (correct):
 What? Bad free
 When? Path (28 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 209
+Who? -
 Why? Argument to free() is the address of the local variable 'str', which is not memory allocated by malloc()
 How to fix? -
 
@@ -163,6 +183,7 @@ clang (correct):
 What? Division by zero
 When? Path (34 calls) provided
 Where? File zero_division.c, line 223
+Who? -
 Why? Division by zero
 How to fix? -
 
@@ -171,6 +192,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (22 calls) provided
 Where? File null_pointer.c, line 140
+Who? -
 Why? Dereference of null pointer (loaded from variable 'p')
 How to fix? -
 
@@ -179,6 +201,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (29 calls) provided
 Where? File bit_shift.c, line 174
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -187,6 +210,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (41 calls) provided
 Where? File null_pointer.c, line 335
+Who? -
 Why? Array access (from variable 'null_pointer_017dst') results in a null pointer dereference
 How to fix? -
 
@@ -195,6 +219,7 @@ clang (correct):
 What? Garbage return value
 When? Path (15 calls) provided
 Where? File uninit_var.c, line 74
+Who? -
 Why? Undefined or garbage value returned to caller
 How to fix? -
 
@@ -203,6 +228,7 @@ clang (correct):
 What? Function call with too few arguments
 When? Path (14 calls) provided
 Where? File wrong_arguments_func_pointer.c, line 160
+Who? -
 Why? Function taking 2 arguments is called with less (1)
 How to fix? -
 
@@ -211,6 +237,7 @@ clang (correct):
 What? Bad free
 When? Path (36 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 262
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -219,6 +246,7 @@ clang (false):
 What? Assigned value is garbage or undefined
 When? Path (9 calls) provided
 Where? File ow_memcpy.c, line 41
+Who? -
 Why? Assigned value is garbage or undefined
 How to fix? -
 
@@ -227,6 +255,7 @@ clang (correct):
 What? Double free
 When? Path (22 calls) provided
 Where? File double_free.c, line 149
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -235,6 +264,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (16 calls) provided
 Where? File uninit_var.c, line 110
+Who? -
 Why? Assigned value is garbage or undefined
 How to fix? -
 
@@ -243,6 +273,7 @@ clang (correct):
 What? Bad free
 When? Path (17 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 86
+Who? -
 Why? Argument to free() is the address of the local variable 'pbuf', which is not memory allocated by malloc()
 How to fix? -
 
@@ -251,6 +282,7 @@ clang (correct):
 What? Double free
 When? Path (17 calls) provided
 Where? File double_free.c, line 115
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -259,6 +291,7 @@ clang (correct):
 What? Bad free
 When? Path (23 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 155
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -267,6 +300,7 @@ clang (correct):
 What? Function call with too few arguments
 When? Path (22 calls) provided
 Where? File func_pointer.c, line 375
+Who? -
 Why? Function taking 1 argument is called with less (0)
 How to fix? -
 
@@ -275,6 +309,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (30 calls) provided
 Where? File bit_shift.c, line 192
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -283,6 +318,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (13 calls) provided
 Where? File uninit_pointer.c, line 89
+Who? -
 Why? -
 How to fix? -
 
@@ -291,6 +327,7 @@ clang (correct):
 What? Division by zero
 When? Path (24 calls) provided
 Where? File zero_division.c, line 164
+Who? -
 Why? -
 How to fix? -
 
@@ -299,6 +336,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (11 calls) provided
 Where? File null_pointer.c, line 61
+Who? -
 Why? Access to field 'a' results in a dereference of a null pointer (loaded from variable 'p')
 How to fix? -
 
@@ -307,6 +345,7 @@ clang (correct):
 What? Garbage return value
 When? Path (30 calls) provided
 Where? File uninit_var.c, line 243
+Who? -
 Why? -
 How to fix? -
 
@@ -315,6 +354,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (17 calls) provided
 Where? File null_pointer.c, line 115
+Who? -
 Why? -
 How to fix? -
 
@@ -323,6 +363,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (14 calls) provided
 Where? File bit_shift.c, line 80
+Who? -
 Why? -
 How to fix? -
 
@@ -331,6 +372,7 @@ clang (correct):
 What? Bad free
 When? Path (19 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 128
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -339,6 +381,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (21 calls) provided
 Where? File buffer_underrun_dynamic.c, line 177
+Who? -
 Why? -
 How to fix? -
 
@@ -347,6 +390,7 @@ clang (correct):
 What? Bad free
 When? Path (33 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 239
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -355,6 +399,7 @@ clang (correct):
 What? Bad free
 When? Path (7 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 36
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -363,6 +408,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (10 calls) provided
 Where? File underrun_st.c, line 55
+Who? -
 Why? -
 How to fix? -
 
@@ -371,6 +417,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (12 calls) provided
 Where? File uninit_memory_access.c, line 73
+Who? -
 Why? -
 How to fix? -
 
@@ -379,6 +426,7 @@ clang (false):
 What? Argument with 'nonnull' attribute passed null
 When? Path (36 calls) provided
 Where? File null_pointer.c, line 257
+Who? -
 Why? Null pointer passed as an argument to a 'nonnull' parameter
 How to fix? -
 
@@ -387,6 +435,7 @@ clang (correct):
 What? Division by zero
 When? Path (21 calls) provided
 Where? File zero_division.c, line 139
+Who? -
 Why? -
 How to fix? -
 
@@ -395,6 +444,7 @@ clang (correct):
 What? Bad free
 When? Path (17 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 115
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -403,6 +453,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (20 calls) provided
 Where? File uninit_var.c, line 130
+Who? -
 Why? The left expression of the compound assignment is an uninitialized value. The computed value will also be garbage
 How to fix? -
 
@@ -411,6 +462,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (8 calls) provided
 Where? File overrun_st.c, line 43
+Who? -
 Why? -
 How to fix? -
 
@@ -419,6 +471,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (22 calls) provided
 Where? File uninit_pointer.c, line 130
+Who? -
 Why? The left operand of '+' is a garbage value
 How to fix? -
 
@@ -427,6 +480,7 @@ clang (correct):
 What? Division by zero
 When? Path (19 calls) provided
 Where? File zero_division.c, line 116
+Who? -
 Why? -
 How to fix? -
 
@@ -435,6 +489,7 @@ clang (correct):
 What? Function call with too few arguments
 When? Path (31 calls) provided
 Where? File wrong_arguments_func_pointer.c, line 422
+Who? -
 Why? Function taking 2 arguments is called with less (1)
 How to fix? -
 
@@ -443,6 +498,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (16 calls) provided
 Where? File bit_shift.c, line 92
+Who? -
 Why? The result of the '>>' expression is undefined
 How to fix? -
 
@@ -451,6 +507,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (20 calls) provided
 Where? File uninit_pointer.c, line 151
+Who? -
 Why? -
 How to fix? -
 
@@ -459,6 +516,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (7 calls) provided
 Where? File null_pointer.c, line 32
+Who? -
 Why? -
 How to fix? -
 
@@ -467,6 +525,7 @@ clang (correct):
 What? Argument with 'nonnull' attribute passed null
 When? Path (36 calls) provided
 Where? File null_pointer.c, line 236
+Who? -
 Why? Null pointer passed as an argument to a 'nonnull' parameter
 How to fix? -
 
@@ -475,6 +534,7 @@ clang (correct):
 What? Double free
 When? Path (24 calls) provided
 Where? File double_free.c, line 168
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -483,6 +543,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (8 calls) provided
 Where? File bit_shift.c, line 44
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -491,6 +552,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (41 calls) provided
 Where? File null_pointer.c, line 287
+Who? -
 Why? Array access (from variable 'null_pointer_016_gbl_doubleptr') results in a null pointer dereference
 How to fix? -
 
@@ -499,6 +561,7 @@ clang (correct):
 What? Bad free
 When? Path (21 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 141
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -507,6 +570,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (27 calls) provided
 Where? File null_pointer.c, line 178
+Who? -
 Why? Array access (from variable 'p') results in a null pointer dereference
 How to fix? -
 
@@ -515,6 +579,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (36 calls) provided
 Where? File bit_shift.c, line 235
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -523,6 +588,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (23 calls) provided
 Where? File uninit_pointer.c, line 199
+Who? -
 Why? -
 How to fix? -
 
@@ -531,6 +597,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (3 calls) provided
 Where? File underrun_st.c, line 21
+Who? -
 Why? -
 How to fix? -
 
@@ -539,6 +606,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (4 calls) provided
 Where? File null_pointer.c, line 21
+Who? -
 Why? -
 How to fix? -
 
@@ -547,6 +615,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (24 calls) provided
 Where? File null_pointer.c, line 157
+Who? -
 Why? -
 How to fix? -
 
@@ -555,6 +624,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (25 calls) provided
 Where? File uninit_var.c, line 160
+Who? -
 Why? -
 How to fix? -
 
@@ -563,6 +633,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (3 calls) provided
 Where? File uninit_memory_access.c, line 26
+Who? -
 Why? -
 How to fix? -
 
@@ -571,6 +642,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (21 calls) provided
 Where? File uninit_memory_access.c, line 199
+Who? -
 Why? -
 How to fix? -
 
@@ -579,6 +651,7 @@ clang (correct):
 What? Dead assignment
 When? -
 Where? File insign_code.c, line 23
+Who? -
 Why? Value stored to 'i' is never read
 How to fix? -
 
@@ -587,6 +660,7 @@ clang (correct):
 What? Bad free
 When? Path (10 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 62
+Who? -
 Why? Argument to free() is the address of the local variable 'ptr1', which is not memory allocated by malloc()
 How to fix? -
 
@@ -595,6 +669,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (24 calls) provided
 Where? File bit_shift.c, line 145
+Who? -
 Why? -
 How to fix? -
 
@@ -603,6 +678,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (40 calls) provided
 Where? File buffer_overrun_dynamic.c, line 332
+Who? -
 Why? The right operand of '+' is a garbage value
 How to fix? -
 
@@ -611,6 +687,7 @@ clang (correct):
 What? Double free
 When? Path (30 calls) provided
 Where? File double_free.c, line 222
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -619,6 +696,7 @@ clang (correct):
 What? Division by zero
 When? Path (12 calls) provided
 Where? File zero_division.c, line 76
+Who? -
 Why? -
 How to fix? -
 
@@ -627,6 +705,7 @@ clang (correct):
 What? Double free
 When? Path (5 calls) provided
 Where? File double_free.c, line 22
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -635,6 +714,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (13 calls) provided
 Where? File uninit_var.c, line 62
+Who? -
 Why? -
 How to fix? -
 
@@ -643,6 +723,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (9 calls) provided
 Where? File ow_memcpy.c, line 41
+Who? -
 Why? -
 How to fix? -
 
@@ -651,6 +732,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (50 calls) provided
 Where? File overrun_st.c, line 319
+Who? -
 Why? -
 How to fix? -
 
@@ -659,6 +741,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (11 calls) provided
 Where? File uninit_memory_access.c, line 53
+Who? -
 Why? -
 How to fix? -
 
@@ -667,6 +750,7 @@ clang (correct):
 What? Division by zero
 When? Path (32 calls) provided
 Where? File zero_division.c, line 204
+Who? -
 Why? -
 How to fix? -
 
@@ -675,6 +759,7 @@ clang (correct):
 What? Division by zero
 When? Path (3 calls) provided
 Where? File zero_division.c, line 21
+Who? -
 Why? -
 How to fix? -
 
@@ -683,6 +768,7 @@ clang (correct):
 What? Dead assignment
 When? -
 Where? File zero_division.c, line 164
+Who? -
 Why? Value stored to 'ret' is never read
 How to fix? -
 
@@ -691,6 +777,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (13 calls) provided
 Where? File null_pointer.c, line 92
+Who? -
 Why? -
 How to fix? -
 
@@ -699,6 +786,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (34 calls) provided
 Where? File bit_shift.c, line 224
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -707,6 +795,7 @@ clang (correct):
 What? Return of address to stack-allocated memory
 When? Path (4 calls) provided
 Where? File return_local.c, line 19
+Who? -
 Why? Address of stack memory associated with local variable 'buf' returned to caller
 How to fix? -
 
@@ -715,6 +804,7 @@ clang (correct):
 What? Bad free
 When? Path (28 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 187
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
@@ -723,6 +813,7 @@ clang (correct):
 What? Dereference of null pointer
 When? Path (27 calls) provided
 Where? File null_pointer.c, line 171
+Who? -
 Why? Dereference of null pointer (loaded from variable 'p2')
 How to fix? -
 
@@ -731,6 +822,7 @@ clang (correct):
 What? Division by zero
 When? Path (6 calls) provided
 Where? File zero_division.c, line 32
+Who? -
 Why? -
 How to fix? -
 
@@ -739,6 +831,7 @@ clang (correct):
 What? Double free
 When? Path (26 calls) provided
 Where? File double_free.c, line 187
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -747,6 +840,7 @@ clang (correct):
 What? Division by zero
 When? Path (26 calls) provided
 Where? File zero_division.c, line 176
+Who? -
 Why? -
 How to fix? -
 
@@ -755,6 +849,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (15 calls) provided
 Where? File uninit_memory_access.c, line 126
+Who? -
 Why? -
 How to fix? -
 
@@ -763,6 +858,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (26 calls) provided
 Where? File bit_shift.c, line 162
+Who? -
 Why? -
 How to fix? -
 
@@ -771,6 +867,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (12 calls) provided
 Where? File uninit_memory_access.c, line 73
+Who? -
 Why? -
 How to fix? -
 
@@ -779,6 +876,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (3 calls) provided
 Where? File bit_shift.c, line 20
+Who? -
 Why? -
 How to fix? -
 
@@ -787,6 +885,7 @@ clang (correct):
 What? Function call with too few arguments
 When? Path (28 calls) provided
 Where? File wrong_arguments_func_pointer.c, line 380
+Who? -
 Why? Function taking 2 arguments is called with less (1)
 How to fix? -
 
@@ -795,6 +894,7 @@ clang (correct):
 What? Dead assignment
 When? -
 Where? File unused_var.c, line 23
+Who? -
 Why? Value stored to 'unuse' is never read
 How to fix? -
 
@@ -803,6 +903,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (22 calls) provided
 Where? File bit_shift.c, line 132
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -811,6 +912,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (6 calls) provided
 Where? File uninit_var.c, line 33
+Who? -
 Why? -
 How to fix? -
 
@@ -819,6 +921,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (8 calls) provided
 Where? File uninit_pointer.c, line 54
+Who? -
 Why? Dereference of undefined pointer value
 How to fix? -
 
@@ -827,6 +930,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (23 calls) provided
 Where? File uninit_pointer.c, line 186
+Who? -
 Why? -
 How to fix? -
 
@@ -835,6 +939,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (18 calls) provided
 Where? File uninit_memory_access.c, line 97
+Who? -
 Why? -
 How to fix? -
 
@@ -843,6 +948,7 @@ clang (correct):
 What? Double free
 When? Path (16 calls) provided
 Where? File double_free.c, line 101
+Who? -
 Why? Attempt to free released memory
 How to fix? -
 
@@ -851,6 +957,7 @@ clang (correct):
 What? Assigned value is garbage or undefined
 When? Path (8 calls) provided
 Where? File uninit_var.c, line 44
+Who? -
 Why? -
 How to fix? -
 
@@ -859,6 +966,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (11 calls) provided
 Where? File uninit_pointer.c, line 70
+Who? -
 Why? -
 How to fix? -
 
@@ -867,6 +975,7 @@ clang (correct):
 What? Dereference of undefined pointer value
 When? Path (15 calls) provided
 Where? File uninit_pointer.c, line 103
+Who? -
 Why? -
 How to fix? -
 
@@ -875,6 +984,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (12 calls) provided
 Where? File bit_shift.c, line 68
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -883,6 +993,7 @@ clang (correct):
 What? Function call with too few arguments
 When? Path (3 calls) provided
 Where? File wrong_arguments_func_pointer.c, line 578
+Who? -
 Why? Function taking 2 arguments is called with less (1)
 How to fix? -
 
@@ -891,6 +1002,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (26 calls) provided
 Where? File uninit_var.c, line 177
+Who? -
 Why? The right operand of '+' is a garbage value
 How to fix? -
 
@@ -899,6 +1011,7 @@ clang (correct):
 What? Division by zero
 When? Path (8 calls) provided
 Where? File zero_division.c, line 45
+Who? -
 Why? -
 How to fix? -
 
@@ -907,6 +1020,7 @@ clang (correct):
 What? Uninitialized argument value
 When? Path (25 calls) provided
 Where? File uninit_memory_access.c, line 318
+Who? -
 Why? -
 How to fix? -
 
@@ -915,6 +1029,7 @@ clang (correct):
 What? Result of operation is garbage or undefined
 When? Path (32 calls) provided
 Where? File bit_shift.c, line 207
+Who? -
 Why? The result of the '<<' expression is undefined
 How to fix? -
 
@@ -923,6 +1038,7 @@ clang (correct):
 What? Bad free
 When? Path (8 calls) provided
 Where? File free_nondynamic_allocated_memory.c, line 48
+Who? -
 Why? Argument to free() is the address of a global variable, which is not memory allocated by malloc()
 How to fix? -
 
