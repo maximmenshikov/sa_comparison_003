@@ -7,9 +7,13 @@ Who? 0%
 Why? 35.78%
 How to fix? 0%
 
+Quality: 0.520270270270271
 TP: 57.7500000000001(111) / 607
 FP: 1.55(3) / 599
-TP/(TP + FP): 97.39%
+Precision: 0.973684210526316
+Recall: 0.182866556836903
+F1: 0.307905686546463
+TP/(TP + FP): 97.37%
 
 Cppcheck
 What? 100%
@@ -19,8 +23,12 @@ Who? 0%
 Why? 0%
 How to fix? 0%
 
+Quality: 0.3
 TP: 30.0000000000001(100) / 607
 FP: 0.6(2) / 599
+Precision: 0.980392156862745
+Recall: 0.164744645799012
+F1: 0.282087447108604
 TP/(TP + FP): 98.04%
 
 Frama-C
@@ -31,9 +39,13 @@ Who? 0%
 Why? 99.77%
 How to fix? 0%
 
+Quality: 0.649337748344374
 TP: 196.100000000001(302) / 607
 FP: 57.1999999999999(88) / 599
-TP/(TP + FP): 77.42%
+Precision: 0.774358974358974
+Recall: 0.497528830313015
+F1: 0.605817452357071
+TP/(TP + FP): 77.44%
 
 PVS Studio
 What? 100%
@@ -43,9 +55,13 @@ Who? 0%
 Why? 48.46%
 How to fix? 17.15%
 
+Quality: 0.458717948717949
 TP: 53.67(117) / 607
 FP: 4.32(12) / 599
-TP/(TP + FP): 92.55%
+Precision: 0.906976744186046
+Recall: 0.192751235584844
+F1: 0.317934782608696
+TP/(TP + FP): 90.7%
 
 Resharper
 Unknown error reports found, report is incomplete
