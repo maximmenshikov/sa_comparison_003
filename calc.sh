@@ -7,7 +7,7 @@ root=$(pwd)
 bench=${root}/itc-benchmarks
 parsers=${root}/sa_parsers
 
-rm result_perfile.txt
+rm result_perfile.txt 2>/dev/null
 echo Results > result_final.txt
 echo Clang >> result_final.txt
 echo "#### Clang" >> result_perfile.txt
